@@ -1,0 +1,27 @@
+{
+  "method": "hybrid_rrf(dense+bm25_bigram)",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 3000,
+  "use_filter": true,
+  "n_answerable": 15,
+  "n_unanswerable_run": 2,
+  "errors": 0,
+  "hit1": 12,
+  "hit3": 14,
+  "context_hit": 14,
+  "mrr10": 0.8741,
+  "avg_context_chars": 2344.3,
+  "median_ms": 30.3,
+  "cost_usd": 0.0,
+  "misses_hit3": [
+    "q03"
+  ],
+  "misses_hit1": [
+    "q03",
+    "q05",
+    "q14"
+  ],
+  "config": "hybrid",
+  "run_at": "2026-11-16T10:01:41"
+}

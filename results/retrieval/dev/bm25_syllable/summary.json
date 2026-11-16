@@ -1,0 +1,29 @@
+{
+  "method": "bm25_syllable",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 3000,
+  "use_filter": true,
+  "n_answerable": 15,
+  "n_unanswerable_run": 2,
+  "errors": 0,
+  "hit1": 10,
+  "hit3": 14,
+  "context_hit": 14,
+  "mrr10": 0.8,
+  "avg_context_chars": 2334.5,
+  "median_ms": 3.2,
+  "cost_usd": 0.0,
+  "misses_hit3": [
+    "q03"
+  ],
+  "misses_hit1": [
+    "q03",
+    "q05",
+    "q12",
+    "q13",
+    "q14"
+  ],
+  "config": "bm25_syllable",
+  "run_at": "2026-11-16T10:01:40"
+}

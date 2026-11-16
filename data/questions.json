@@ -1,0 +1,526 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Thời gian thử việc tối đa đối với công việc cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên là bao lâu?",
+    "expected_answer": "Không quá 60 ngày.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 12,
+        "article": "Điều 25",
+        "evidence": "Không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên",
+        "evidence_all": [
+          "Không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Tiền lương trong thời gian thử việc tối thiểu phải bằng bao nhiêu phần trăm mức lương của công việc?",
+    "expected_answer": "Do hai bên thỏa thuận nhưng ít nhất bằng 85% mức lương của công việc đó.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 13,
+        "article": "Điều 26",
+        "evidence": "Tiền lương của người lao động trong thời gian thử việc do hai bên thỏa thuận nhưng ít nhất phải bằng 85% mức lương của công việc đó",
+        "evidence_all": [
+          "Tiền lương của người lao động trong thời gian thử việc do hai bên thỏa thuận nhưng ít nhất phải bằng 85% mức lương của công việc đó"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Một hợp đồng lao động có kỳ hạn được phép kéo dài tối đa bao nhiêu tháng?",
+    "expected_answer": "Hợp đồng lao động xác định thời hạn có thời hạn không quá 36 tháng kể từ thời điểm có hiệu lực.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 10,
+        "article": "Điều 20",
+        "evidence": "thời điểm chấm dứt hiệu lực của hợp đồng trong thời gian không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng",
+        "evidence_all": [
+          "thời điểm chấm dứt hiệu lực của hợp đồng trong thời gian không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Hợp đồng lao động xác định thời hạn đã hết hạn, người lao động vẫn tiếp tục làm việc nhưng sau 30 ngày hai bên không ký hợp đồng mới thì hợp đồng cũ được xử lý thế nào?",
+    "expected_answer": "Hợp đồng đã giao kết trở thành hợp đồng lao động không xác định thời hạn.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 10,
+        "article": "Điều 20",
+        "evidence": "Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết theo quy định tại điểm b khoản 1 Điều này trở thành hợp đồng lao động không xác định thời hạn",
+        "evidence_all": [
+          "Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết theo quy định tại điểm b khoản 1 Điều này trở thành hợp đồng lao động không xác định thời hạn"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "dieu_kien_ngoai_le",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Người lao động làm việc theo hợp đồng không xác định thời hạn muốn đơn phương nghỉ việc thì phải báo trước ít nhất bao nhiêu ngày?",
+    "expected_answer": "Ít nhất 45 ngày.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 16,
+        "article": "Điều 35",
+        "evidence": "Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn",
+        "evidence_all": [
+          "Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Người lao động bị quấy rối tình dục tại nơi làm việc có phải báo trước khi đơn phương chấm dứt hợp đồng không?",
+    "expected_answer": "Không cần báo trước; đây là một trường hợp người lao động được đơn phương chấm dứt hợp đồng không cần báo trước.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 17,
+        "article": "Điều 35",
+        "evidence": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp sau đây",
+        "evidence_all": [
+          "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp sau đây",
+          "Bị quấy rối tình dục tại nơi làm việc"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "dieu_kien_ngoai_le",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Khi thôi việc, mỗi năm làm việc người lao động được nhận khoản trợ cấp bằng bao nhiêu tiền lương?",
+    "expected_answer": "Mỗi năm làm việc được trợ cấp một nửa tháng tiền lương (áp dụng cho người làm việc thường xuyên từ đủ 12 tháng trở lên, trừ các trường hợp loại trừ).",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 22,
+        "article": "Điều 46",
+        "evidence": "người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương",
+        "evidence_all": [
+          "người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Làm thêm giờ vào ngày nghỉ hằng tuần được trả lương ít nhất bằng bao nhiêu phần trăm?",
+    "expected_answer": "Ít nhất bằng 200%.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 43,
+        "article": "Điều 98",
+        "evidence": "Vào ngày nghỉ hằng tuần, ít nhất bằng 200%",
+        "evidence_all": [
+          "Vào ngày nghỉ hằng tuần, ít nhất bằng 200%"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Doanh nghiệp gia công xuất khẩu hàng dệt may được sử dụng người lao động làm thêm tối đa bao nhiêu giờ một năm?",
+    "expected_answer": "Không quá 300 giờ trong 01 năm (ngoại lệ so với mức chung 200 giờ).",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 46,
+        "article": "Điều 107",
+        "evidence": "không quá 300 giờ trong 01 năm trong một số ngành, nghề, công việc hoặc trường hợp sau đây",
+        "evidence_all": [
+          "không quá 300 giờ trong 01 năm trong một số ngành, nghề, công việc hoặc trường hợp sau đây",
+          "Sản xuất, gia công xuất khẩu sản phẩm hàng d ệt, may, da, giày"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "dieu_kien_ngoai_le",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Người làm công việc trong điều kiện bình thường, làm đủ 12 tháng cho một người sử dụng lao động được nghỉ hằng năm bao nhiêu ngày?",
+    "expected_answer": "12 ngày làm việc, hưởng nguyên lương.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 48,
+        "article": "Điều 113",
+        "evidence": "12 ngày làm việc đối với người làm công việc trong điều kiện bình thường",
+        "evidence_all": [
+          "12 ngày làm việc đối với người làm công việc trong điều kiện bình thường"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Nhân viên lấy vợ hoặc lấy chồng thì được nghỉ mấy ngày mà vẫn hưởng nguyên lương?",
+    "expected_answer": "Nghỉ 03 ngày.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 49,
+        "article": "Điều 115",
+        "evidence": "Kết hôn: nghỉ 03 ngày",
+        "evidence_all": [
+          "Kết hôn: nghỉ 03 ngày"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Thời điểm bắt đầu hưởng trợ cấp thất nghiệp được tính từ ngày nào?",
+    "expected_answer": "Từ ngày thứ 16, kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp.",
+    "gold": [
+      {
+        "source_id": "LVL2013",
+        "page": 66,
+        "article": "Điều 50",
+        "evidence": "Thời điểm hưởng trợ cấp thất nghiệp được tính từ ngày thứ 16, kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp",
+        "evidence_all": [
+          "Thời điểm hưởng trợ cấp thất nghiệp được tính từ ngày thứ 16, kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "year": 2013
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Thời điểm bắt đầu hưởng trợ cấp thất nghiệp được tính từ ngày nào?",
+    "expected_answer": "Là ngày làm việc thứ 11 kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp.",
+    "gold": [
+      {
+        "source_id": "LVL2025",
+        "page": 46,
+        "article": "Điều 39",
+        "evidence": "Thời điểm hưởng trợ cấp thất nghiệp là ngày làm việc thứ 11 kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp",
+        "evidence_all": [
+          "Thời điểm hưởng trợ cấp thất nghiệp là ngày làm việc thứ 11 kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "year": 2025
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Người lao động phải đóng bảo hiểm thất nghiệp bằng bao nhiêu phần trăm tiền lương tháng?",
+    "expected_answer": "Người lao động đóng bằng 1% tiền lương tháng.",
+    "gold": [
+      {
+        "source_id": "LVL2013",
+        "page": 68,
+        "article": "Điều 57",
+        "evidence": "Người lao động đóng bằng 1% tiền lương tháng",
+        "evidence_all": [
+          "Người lao động đóng bằng 1% tiền lương tháng"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "year": 2013
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Thời gian hưởng trợ cấp thất nghiệp tối đa là bao nhiêu tháng?",
+    "expected_answer": "Tối đa 12 tháng (đóng đủ 12–36 tháng được 03 tháng, sau đó cứ thêm 12 tháng được thêm 01 tháng). Cả luật 2013 và 2025 đều quy định như vậy.",
+    "gold": [
+      {
+        "source_id": "LVL2013",
+        "page": 66,
+        "article": "Điều 50",
+        "evidence": "cứ đóng đủ thêm 12 tháng thì được hưởng thêm 01 tháng trợ cấp thất nghiệp nhưng tối đa không quá 12 tháng",
+        "evidence_all": [
+          "cứ đóng đủ thêm 12 tháng thì được hưởng thêm 01 tháng trợ cấp thất nghiệp nhưng tối đa không quá 12 tháng"
+        ]
+      },
+      {
+        "source_id": "LVL2025",
+        "page": 46,
+        "article": "Điều 39",
+        "evidence": "cứ đóng đủ thêm 12 tháng thì được hưởng thêm 01 tháng trợ cấp thất nghiệp nhưng thời gian hưởng trợ cấp thất nghiệp tối đa 12 tháng",
+        "evidence_all": [
+          "cứ đóng đủ thêm 12 tháng thì được hưởng thêm 01 tháng trợ cấp thất nghiệp nhưng thời gian hưởng trợ cấp thất nghiệp tối đa 12 tháng"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Lao động nữ được nghỉ thai sản bao lâu và tối đa bao nhiêu tháng trước khi sinh?",
+    "expected_answer": "Nghỉ 06 tháng trước và sau khi sinh; thời gian nghỉ trước khi sinh không quá 02 tháng.",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 58,
+        "article": "Điều 139",
+        "evidence": "Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng",
+        "evidence_all": [
+          "Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Từ năm 2021, lao động nữ làm việc trong điều kiện bình thường nghỉ hưu ở tuổi bao nhiêu?",
+    "expected_answer": "Đủ 55 tuổi 04 tháng (sau đó mỗi năm tăng thêm 04 tháng, đến đủ 60 tuổi vào năm 2035).",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 68,
+        "article": "Điều 169",
+        "evidence": "Kể từ năm 2021, tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường là đủ 60 tuổi 03 tháng đối với lao động nam và đủ 55 tuổi 04 tháng đối với lao động nữ",
+        "evidence_all": [
+          "Kể từ năm 2021, tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường là đủ 60 tuổi 03 tháng đối với lao động nam và đủ 55 tuổi 04 tháng đối với lao động nữ"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "dieu_kien_ngoai_le",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Dịp Tết Nguyên đán người lao động được nghỉ bao nhiêu ngày hưởng nguyên lương?",
+    "expected_answer": "05 ngày (Tết Âm lịch).",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 47,
+        "article": "Điều 112",
+        "evidence": "Tết Âm lịch: 05 ngày",
+        "evidence_all": [
+          "Tết Âm lịch: 05 ngày"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "dien_dat_lai",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Thời giờ làm việc bình thường tối đa là bao nhiêu giờ một ngày và một tuần?",
+    "expected_answer": "Không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần (nếu quy định theo tuần thì không quá 10 giờ/ngày).",
+    "gold": [
+      {
+        "source_id": "BLLD2019",
+        "page": 45,
+        "article": "Điều 105",
+        "evidence": "Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần",
+        "evidence_all": [
+          "Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "truc_tiep",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Sau khi nộp đủ hồ sơ, người lao động phải chưa có việc làm trong bao lâu thì mới đủ điều kiện hưởng trợ cấp thất nghiệp?",
+    "expected_answer": "Trong thời hạn 10 ngày làm việc kể từ ngày nộp đủ hồ sơ mà không thuộc trường hợp có việc làm (và các trường hợp loại trừ khác).",
+    "gold": [
+      {
+        "source_id": "LVL2025",
+        "page": 46,
+        "article": "Điều 38",
+        "evidence": "Trong thời hạn 10 ngày làm việc kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp mà người lao động không thuộc một trong các trường hợp có việc làm",
+        "evidence_all": [
+          "Trong thời hạn 10 ngày làm việc kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp mà người lao động không thuộc một trong các trường hợp có việc làm"
+        ]
+      }
+    ],
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "year": 2025
+    }
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "Mức lương tối thiểu vùng I hiện nay là bao nhiêu đồng một tháng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "type": "thieu_bang_chung",
+    "near_topic": "BLLĐ 2019 Điều 91 (p40-41) có nói về mức lương tối thiểu theo vùng.",
+    "absence_reason": "Điều 91 BLLĐ 2019 chỉ quy định nguyên tắc (xác lập theo vùng, ấn định theo tháng/giờ) và giao Chính phủ công bố mức cụ thể; con số từng vùng nằm trong Nghị định của Chính phủ, không có trong corpus.",
+    "verification": {
+      "method": "Đọc toàn văn Điều 91; dò toàn bộ 356 chunk (NFC, bỏ khoảng trắng, không phân biệt hoa thường).",
+      "must_not_contain": [
+        "vùng I",
+        "đồng/tháng",
+        "triệu đồng"
+      ],
+      "regex_must_not_match": [
+        "\\d{1,3}(?:[.,]\\d{3}){2,}"
+      ]
+    }
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "Người lao động phải đóng bảo hiểm xã hội vào quỹ hưu trí và tử tuất bằng bao nhiêu phần trăm tiền lương tháng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "type": "thieu_bang_chung",
+    "near_topic": "LVL 2013 Điều 57 (p68) và LVL 2025 (p42) có tỷ lệ đóng BẢO HIỂM THẤT NGHIỆP 1% — dễ bị nhầm sang.",
+    "absence_reason": "Tỷ lệ đóng BHXH vào quỹ hưu trí, tử tuất do Luật Bảo hiểm xã hội quy định, không thuộc corpus. Corpus chỉ có tỷ lệ đóng bảo hiểm thất nghiệp (1%), là quỹ khác.",
+    "verification": {
+      "method": "Dò toàn bộ chunk; liệt kê mọi tỷ lệ phần trăm trong LVL 2013/2025 (chỉ có 1% BHTN, 60% trợ cấp, 50% vốn điều lệ).",
+      "must_not_contain": [
+        "tử tuất",
+        "quỹ hưu trí",
+        "8%"
+      ],
+      "regex_must_not_match": []
+    }
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "Lao động nam được nghỉ bao nhiêu ngày làm việc hưởng chế độ thai sản khi vợ sinh con thường?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "type": "thieu_bang_chung",
+    "near_topic": "BLLĐ 2019 Điều 139 khoản 5 (p58) có nhắc lao động nam khi vợ sinh con được nghỉ hưởng chế độ thai sản.",
+    "absence_reason": "Điều 139 khoản 5 chỉ dẫn chiếu 'theo quy định của pháp luật về bảo hiểm xã hội', không nêu số ngày. Số ngày cụ thể nằm trong Luật Bảo hiểm xã hội, không có trong corpus. Đáp án đúng: nói rõ corpus không quy định số ngày (có thể nêu dẫn chiếu Điều 139 khoản 5).",
+    "verification": {
+      "method": "Đọc toàn văn Điều 139 (chunk B-BLLD2019-93563d90b42b0181); dò 'vợ sinh' chỉ ra đúng 1 chunk này và chunk đó không có số ngày nào. Các cụm 'N ngày làm việc' khác trong corpus là thời hạn thủ tục, không liên quan thai sản.",
+      "must_not_contain": [],
+      "regex_must_not_match": [],
+      "cooccur_must_not_match": [
+        {
+          "if_contains": "vợ sinh",
+          "regex": "\\d+\\s*ngày"
+        },
+        {
+          "if_contains": "lao động nam",
+          "regex": "nghỉ[^.]{0,60}\\d+\\s*ngày"
+        }
+      ]
+    }
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "Người sử dụng lao động không đóng bảo hiểm thất nghiệp cho người lao động thì bị phạt tiền bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "type": "thieu_bang_chung",
+    "near_topic": "BLLĐ 2019 (p89) và LVL 2013/2025 có nhắc 'xử phạt vi phạm hành chính' về bảo hiểm thất nghiệp.",
+    "absence_reason": "Corpus chỉ nói vi phạm thì bị xử phạt vi phạm hành chính, không nêu mức tiền phạt; mức phạt nằm trong Nghị định xử phạt vi phạm hành chính, không có trong corpus.",
+    "verification": {
+      "method": "Dò 'phạt tiền' (1 chunk, nói về cấm phạt tiền thay kỷ luật), 'xử phạt' (3 chunk, không có số tiền), không có số tiền dạng 1.000.000 nào trong toàn corpus.",
+      "must_not_contain": [
+        "triệu đồng",
+        "mức phạt"
+      ],
+      "regex_must_not_match": [
+        "\\d{1,3}(?:[.,]\\d{3}){2,}"
+      ]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "Mức lương tối thiểu vùng I hiện nay là bao nhiêu đồng một tháng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "type": "thieu_bang_chung",
+    "near_topic": "BLLĐ 2019 Điều 91 (p40-41) có nói về mức lương tối thiểu theo vùng.",
+    "absence_reason": "Điều 91 BLLĐ 2019 chỉ quy định nguyên tắc (xác lập theo vùng, ấn định theo tháng/giờ) và giao Chính phủ công bố mức cụ thể; con số từng vùng nằm trong Nghị định của Chính phủ, không có trong corpus.",
+    "verification": {
+      "method": "Đọc toàn văn Điều 91; dò toàn bộ 356 chunk (NFC, bỏ khoảng trắng, không phân biệt hoa thường).",
+      "must_not_contain": ["vùng I", "đồng/tháng", "triệu đồng"],
+      "regex_must_not_match": ["\\d{1,3}(?:[.,]\\d{3}){2,}"]
+    }
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "Người lao động phải đóng bảo hiểm xã hội vào quỹ hưu trí và tử tuất bằng bao nhiêu phần trăm tiền lương tháng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "type": "thieu_bang_chung",
+    "near_topic": "LVL 2013 Điều 57 (p68) và LVL 2025 (p42) có tỷ lệ đóng BẢO HIỂM THẤT NGHIỆP 1% — dễ bị nhầm sang.",
+    "absence_reason": "Tỷ lệ đóng BHXH vào quỹ hưu trí, tử tuất do Luật Bảo hiểm xã hội quy định, không thuộc corpus. Corpus chỉ có tỷ lệ đóng bảo hiểm thất nghiệp (1%), là quỹ khác.",
+    "verification": {
+      "method": "Dò toàn bộ chunk; liệt kê mọi tỷ lệ phần trăm trong LVL 2013/2025 (chỉ có 1% BHTN, 60% trợ cấp, 50% vốn điều lệ).",
+      "must_not_contain": ["tử tuất", "quỹ hưu trí", "8%"],
+      "regex_must_not_match": []
+    }
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "Lao động nam được nghỉ bao nhiêu ngày làm việc hưởng chế độ thai sản khi vợ sinh con thường?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "type": "thieu_bang_chung",
+    "near_topic": "BLLĐ 2019 Điều 139 khoản 5 (p58) có nhắc lao động nam khi vợ sinh con được nghỉ hưởng chế độ thai sản.",
+    "absence_reason": "Điều 139 khoản 5 chỉ dẫn chiếu 'theo quy định của pháp luật về bảo hiểm xã hội', không nêu số ngày. Số ngày cụ thể nằm trong Luật Bảo hiểm xã hội, không có trong corpus. Đáp án đúng: nói rõ corpus không quy định số ngày (có thể nêu dẫn chiếu Điều 139 khoản 5).",
+    "verification": {
+      "method": "Đọc toàn văn Điều 139 (chunk B-BLLD2019-93563d90b42b0181); dò 'vợ sinh' chỉ ra đúng 1 chunk này và chunk đó không có số ngày nào. Các cụm 'N ngày làm việc' khác trong corpus là thời hạn thủ tục, không liên quan thai sản.",
+      "must_not_contain": [],
+      "regex_must_not_match": [],
+      "cooccur_must_not_match": [{"if_contains": "vợ sinh", "regex": "\\d+\\s*ngày"},
+                                 {"if_contains": "lao động nam", "regex": "nghỉ[^.]{0,60}\\d+\\s*ngày"}]
+    }
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "Người sử dụng lao động không đóng bảo hiểm thất nghiệp cho người lao động thì bị phạt tiền bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "type": "thieu_bang_chung",
+    "near_topic": "BLLĐ 2019 (p89) và LVL 2013/2025 có nhắc 'xử phạt vi phạm hành chính' về bảo hiểm thất nghiệp.",
+    "absence_reason": "Corpus chỉ nói vi phạm thì bị xử phạt vi phạm hành chính, không nêu mức tiền phạt; mức phạt nằm trong Nghị định xử phạt vi phạm hành chính, không có trong corpus.",
+    "verification": {
+      "method": "Dò 'phạt tiền' (1 chunk, nói về cấm phạt tiền thay kỷ luật), 'xử phạt' (3 chunk, không có số tiền), không có số tiền dạng 1.000.000 nào trong toàn corpus.",
+      "must_not_contain": ["triệu đồng", "mức phạt"],
+      "regex_must_not_match": ["\\d{1,3}(?:[.,]\\d{3}){2,}"]
+    }
+  }
+]
