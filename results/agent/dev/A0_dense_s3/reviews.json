@@ -1,0 +1,19 @@
+[
+  {"query_id": "q01", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không quá 60 ngày'; Điều 25 khoản 2 nêu nguyên văn."},
+  {"query_id": "q02", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'do hai bên thỏa thuận, ít nhất 85%'; Điều 26 nguyên văn."},
+  {"query_id": "q03", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không quá 36 tháng kể từ thời điểm có hiệu lực'; Điều 20 khoản 1 điểm b. Agent tự viết lại query 'có kỳ hạn' thành 'xác định thời hạn'."},
+  {"query_id": "q04", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'trở thành HĐLĐ không xác định thời hạn'; Điều 20 khoản 2 điểm b."},
+  {"query_id": "q05", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ít nhất 45 ngày' + nêu ngoại lệ ngành nghề đặc thù (khoản 1 điểm d). Đoạn 2 tóm tắt khoản 2 (không cần báo trước) — có trong Điều 35, đúng nguồn."},
+  {"query_id": "q06", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không phải báo trước'; Điều 35 khoản 2 điểm d."},
+  {"query_id": "q07", "answer_grade": 1, "citation_support": [true], "reason": "Mức hưởng 'một nửa tháng tiền lương' đúng, kèm điều kiện đủ 12 tháng, cách tính thời gian và tiền lương — đều có trong Điều 46. LỖI GROUNDING: agent diễn giải 'điểm e khoản 1 Điều 36' thành 'tự ý bỏ việc không có lý do chính đáng từ 05 ngày làm việc liên tục' — nội dung này KHÔNG có trong context (Điều 36 không được truy xuất), lấy từ kiến thức sẵn có của model. Học viên chấm 1 (đúng một phần) vì câu trả lời chứa khẳng định ngoài tài liệu. Citation Điều 46 vẫn hỗ trợ phần mức hưởng nên citation_support = true. Lỗi dev #1."},
+  {"query_id": "q08", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ít nhất 200%'; Điều 98 khoản 1 điểm b."},
+  {"query_id": "q09", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không quá 300 giờ/năm' (Điều 107 khoản 3 điểm a, dệt may); nghĩa vụ thông báo UBND cấp tỉnh có trong khoản 4 cùng chunk."},
+  {"query_id": "q10", "answer_grade": 2, "citation_support": [true], "reason": "Đúng '12 ngày làm việc'; Điều 113 khoản 1 điểm a. Không nhắc 'hưởng nguyên lương' nhưng câu hỏi chỉ hỏi số ngày."},
+  {"query_id": "q11", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'nghỉ 03 ngày, hưởng nguyên lương'; Điều 115 khoản 1 điểm a."},
+  {"query_id": "q12", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ngày thứ 16 kể từ ngày nộp đủ hồ sơ' theo LVL 2013 (người dùng cung cấp năm 2013); Điều 50 khoản 3."},
+  {"query_id": "q13", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ngày làm việc thứ 11' theo LVL 2025 (người dùng cung cấp năm 2025); Điều 39 khoản 3. Phân biệt đúng với q12."},
+  {"query_id": "q14", "answer_grade": 2, "citation_support": [true], "reason": "Đúng '1% tiền lương tháng' theo LVL 2013; Điều 57 khoản 1 điểm a."},
+  {"query_id": "q15", "answer_grade": 2, "citation_support": [true, true], "reason": "Đúng 'tối đa 12 tháng', trích cả LVL 2013 Điều 50 và LVL 2025 Điều 39 — đều nêu tối đa 12 tháng."},
+  {"query_id": "u01", "abstention_correct": true, "citation_support": [true], "reason": "Từ chối đúng; nói rõ Điều 91 chỉ quy định nguyên tắc, không có con số; không đưa con số nào."},
+  {"query_id": "u02", "abstention_correct": true, "citation_support": [true, true, true], "reason": "Từ chối đúng; không bị lừa bởi tỷ lệ 1% BHTN — nói rõ đó là bảo hiểm thất nghiệp, không phải quỹ hưu trí/tử tuất. Ba citation hỗ trợ đúng các ý nêu ra."}
+]

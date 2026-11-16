@@ -1,0 +1,934 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "Lao động nữ được nghỉ thai sản bao lâu và tối đa bao nhiêu tháng trước khi sinh?",
+    "filters": null,
+    "method": "bm25_bigram",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B-BLLD2019-93563d90b42b0181",
+        "score": 73.807244,
+        "source_id": "BLLD2019",
+        "page": 58,
+        "page_end": 58,
+        "article": "Điều 139",
+        "hit": true,
+        "preview": "Điều 139. Nghỉ thai sản\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.\nTrường hợp la"
+      },
+      {
+        "rank": 2,
+        "id": "B-BLLD2019-2e4f6c0372ced8ba",
+        "score": 38.503953,
+        "source_id": "BLLD2019",
+        "page": 58,
+        "page_end": 58,
+        "article": "Điều 140",
+        "hit": false,
+        "preview": "Điều 140. Bảo đảm việc làm cho lao động nghỉ thai sản\nLao động được bảo đảm việc làm cũ khi trở lại làm việc sau khi nghỉ hết thời gian theo quy định tại các kh"
+      },
+      {
+        "rank": 3,
+        "id": "B-BLLD2019-a027e32e2fab7769",
+        "score": 35.783038,
+        "source_id": "BLLD2019",
+        "page": 57,
+        "page_end": 57,
+        "article": "Điều 137",
+        "hit": false,
+        "preview": "Điều 137. Bảo vệ thai sản\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:"
+      },
+      {
+        "rank": 4,
+        "id": "B-BLLD2019-e259ffed0bc6d986",
+        "score": 31.780499,
+        "source_id": "BLLD2019",
+        "page": 19,
+        "page_end": 19,
+        "article": "Điều 37",
+        "hit": false,
+        "preview": "Điều 37. Trường hợp người sử dụng lao động không được thực hiện quyền đơn phương chấm dứt hợp đồng lao động\n1. Người lao động ốm đau hoặc bị tai n ạn, bệnh nghề"
+      },
+      {
+        "rank": 5,
+        "id": "B-BLLD2019-17577f7ba18121d1",
+        "score": 24.154638,
+        "source_id": "BLLD2019",
+        "page": 91,
+        "page_end": 92,
+        "article": "Điều 219",
+        "hit": false,
+        "preview": "Điều 219. Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động (tiếp)\n2. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này"
+      },
+      {
+        "rank": 6,
+        "id": "B-LVL2013-11c54b9352bb4854",
+        "score": 22.301883,
+        "source_id": "LVL2013",
+        "page": 66,
+        "page_end": 66,
+        "article": "Điều 50",
+        "hit": false,
+        "preview": "Điều 50. Mức, thời gian, thời điểm hưởng trợ cấp thất nghiệp\n1. Mức hưởng trợ cấp thất nghiệp hằng tháng bằng 60% mức bình quân tiền lương tháng đóng bảo hiểm t"
+      },
+      {
+        "rank": 7,
+        "id": "B-BLLD2019-0cdbf6e6dd130e16",
+        "score": 22.236298,
+        "source_id": "BLLD2019",
+        "page": 24,
+        "page_end": 25,
+        "article": "Điều 53",
+        "hit": false,
+        "preview": "Điều 53. Nguyên tắc hoạt động cho thuê lại lao động\n1. Thời hạn cho thuê lại lao động đối với người lao động tối đa là 12 tháng.\n2. Bên thuê lại lao động được s"
+      },
+      {
+        "rank": 8,
+        "id": "B-LVL2025-bfcab6f7e936f50f",
+        "score": 21.900696,
+        "source_id": "LVL2025",
+        "page": 46,
+        "page_end": 46,
+        "article": "Điều 39",
+        "hit": false,
+        "preview": "Điều 39. Mức hưởng, thời gian hưởng, thời điểm hưởng và hồ sơ, trình tự, thủ tục hưởng trợ cấp thất nghiệp\n1. Mức hưởng trợ cấp thất nghiệp hằng tháng bằng 60% "
+      },
+      {
+        "rank": 9,
+        "id": "B-BLLD2019-dfc3b1d9f34e9308",
+        "score": 20.990337,
+        "source_id": "BLLD2019",
+        "page": 51,
+        "page_end": 52,
+        "article": "Điều 122",
+        "hit": false,
+        "preview": "Điều 122. Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động\n1. Việc xử lý kỷ luật lao động được quy định như sau:\na) Người sử dụng lao động phải chứng minh đ"
+      },
+      {
+        "rank": 10,
+        "id": "B-BLLD2019-70c986bb7a5e88e3",
+        "score": 20.520156,
+        "source_id": "BLLD2019",
+        "page": 47,
+        "page_end": 47,
+        "article": "Điều 110",
+        "hit": false,
+        "preview": "Điều 110. Nghỉ chuyển ca\nNgười lao động làm việc theo ca được nghỉ ít nhất 12 giờ trước khi chuyển sang ca làm việc khác."
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-93563d90b42b0181",
+      "B-BLLD2019-2e4f6c0372ced8ba",
+      "B-BLLD2019-a027e32e2fab7769"
+    ],
+    "context_chars": 3820,
+    "elapsed_ms": 3.2,
+    "error": null,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "Từ năm 2021, lao động nữ làm việc trong điều kiện bình thường nghỉ hưu ở tuổi bao nhiêu?",
+    "filters": null,
+    "method": "bm25_bigram",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B-BLLD2019-8e12dac6e411f497",
+        "score": 85.853047,
+        "source_id": "BLLD2019",
+        "page": 68,
+        "page_end": 69,
+        "article": "Điều 169",
+        "hit": true,
+        "preview": "Điều 169. Tuổi nghỉ hưu\n1. Người lao động bảo đảm điều kiện về thời gian đóng bảo hiểm xã hội theo quy định của pháp luật về bảo hiểm xã hội được hưởng lương hư"
+      },
+      {
+        "rank": 2,
+        "id": "B-BLLD2019-17577f7ba18121d1",
+        "score": 45.295882,
+        "source_id": "BLLD2019",
+        "page": 91,
+        "page_end": 92,
+        "article": "Điều 219",
+        "hit": false,
+        "preview": "Điều 219. Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động (tiếp)\n2. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này"
+      },
+      {
+        "rank": 3,
+        "id": "B-BLLD2019-cd4c4001db3a94ae",
+        "score": 35.302393,
+        "source_id": "BLLD2019",
+        "page": 90,
+        "page_end": 91,
+        "article": "Điều 219",
+        "hit": false,
+        "preview": "Điều 219. Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động\n1. Sửa đổi, bổ sung một số điều của Luật Bảo hiểm xã hội số 58/2014/QH13 đã được s"
+      },
+      {
+        "rank": 4,
+        "id": "B-BLLD2019-6650b39fc41c3083",
+        "score": 31.296657,
+        "source_id": "BLLD2019",
+        "page": 48,
+        "page_end": 48,
+        "article": "Điều 113",
+        "hit": false,
+        "preview": "Điều 113. Nghỉ hằng năm\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động "
+      },
+      {
+        "rank": 5,
+        "id": "B-BLLD2019-0d46ba102abbb1eb",
+        "score": 29.723493,
+        "source_id": "BLLD2019",
+        "page": 92,
+        "page_end": 92,
+        "article": "Điều 219",
+        "hit": false,
+        "preview": "Điều 219. Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động (tiếp)\n1. Người lao động quy định tại các điểm a, b, c, d, g, h và i khoản 1 Điều "
+      },
+      {
+        "rank": 6,
+        "id": "B-BLLD2019-d58a6fc082bf6df2",
+        "score": 26.984138,
+        "source_id": "BLLD2019",
+        "page": 56,
+        "page_end": 56,
+        "article": "Điều 135",
+        "hit": false,
+        "preview": "Chương X\nNHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI LAO ĐỘNG NỮ VÀ BẢO ĐẢM BÌNH ĐẲNG GIỚI\nĐiều 135. Chính sách của Nhà nước\n1. Bảo đảm quyền bình đẳng của lao động nữ, lao độ"
+      },
+      {
+        "rank": 7,
+        "id": "B-BLLD2019-a027e32e2fab7769",
+        "score": 26.115572,
+        "source_id": "BLLD2019",
+        "page": 57,
+        "page_end": 57,
+        "article": "Điều 137",
+        "hit": false,
+        "preview": "Điều 137. Bảo vệ thai sản\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:"
+      },
+      {
+        "rank": 8,
+        "id": "B-LVL2013-ea3b3fac116ff515",
+        "score": 23.7083,
+        "source_id": "LVL2013",
+        "page": 52,
+        "page_end": 52,
+        "article": "Điều 4",
+        "hit": false,
+        "preview": "Điều 4. Nguyên tắc về việc làm\n1. Bảo đảm quyền làm việc, tự do lựa chọn việc làm và nơi làm việc.\n2. Bình đẳng về cơ hội việc làm và thu nhập.\n3. Bảo đảm làm v"
+      },
+      {
+        "rank": 9,
+        "id": "B-LVL2025-ff1a8a4f9821d00a",
+        "score": 23.549025,
+        "source_id": "LVL2025",
+        "page": 28,
+        "page_end": 28,
+        "article": "Điều 3",
+        "hit": false,
+        "preview": "Điều 3. Nguyên tắc về việc làm\n1. Bảo đảm quyền làm việc, tự do lựa chọn việc làm và nơi làm việc.\n2. Bình đẳng về cơ hội việc làm, tiền lương và thu nhập.\n3. B"
+      },
+      {
+        "rank": 10,
+        "id": "B-BLLD2019-93563d90b42b0181",
+        "score": 23.248801,
+        "source_id": "BLLD2019",
+        "page": 58,
+        "page_end": 58,
+        "article": "Điều 139",
+        "hit": false,
+        "preview": "Điều 139. Nghỉ thai sản\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.\nTrường hợp la"
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-8e12dac6e411f497",
+      "B-BLLD2019-17577f7ba18121d1",
+      "B-BLLD2019-cd4c4001db3a94ae"
+    ],
+    "context_chars": 4534,
+    "elapsed_ms": 3.0,
+    "error": null,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "Dịp Tết Nguyên đán người lao động được nghỉ bao nhiêu ngày hưởng nguyên lương?",
+    "filters": null,
+    "method": "bm25_bigram",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B-BLLD2019-a52181baed27c2da",
+        "score": 40.92954,
+        "source_id": "BLLD2019",
+        "page": 47,
+        "page_end": 48,
+        "article": "Điều 112",
+        "hit": true,
+        "preview": "Điều 112. Nghỉ lễ, tết\n1. Người lao động được nghỉ làm việc, hưởng nguyên lương trong những ngày lễ, tết sau đây:\na) Tết Dương lịch: 01 ngày (ngày 01 tháng 01 d"
+      },
+      {
+        "rank": 2,
+        "id": "B-BLLD2019-780eb8cd23f8d636",
+        "score": 36.516391,
+        "source_id": "BLLD2019",
+        "page": 48,
+        "page_end": 49,
+        "article": "Điều 115",
+        "hit": false,
+        "preview": "Điều 115. Nghỉ việc riêng, nghỉ không hưởng lương\n1. Người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương và phải thông báo với người sử dụng lao động "
+      },
+      {
+        "rank": 3,
+        "id": "B-BLLD2019-6650b39fc41c3083",
+        "score": 26.195179,
+        "source_id": "BLLD2019",
+        "page": 48,
+        "page_end": 48,
+        "article": "Điều 113",
+        "hit": false,
+        "preview": "Điều 113. Nghỉ hằng năm\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động "
+      },
+      {
+        "rank": 4,
+        "id": "B-BLLD2019-a42037d02ec9de17",
+        "score": 26.095155,
+        "source_id": "BLLD2019",
+        "page": 47,
+        "page_end": 47,
+        "article": "Điều 111",
+        "hit": false,
+        "preview": "Điều 111. Nghỉ hằng tuần\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần th"
+      },
+      {
+        "rank": 5,
+        "id": "B-BLLD2019-681e2e619b1270b3",
+        "score": 23.293018,
+        "source_id": "BLLD2019",
+        "page": 43,
+        "page_end": 43,
+        "article": "Điều 98",
+        "hit": false,
+        "preview": "Điều 98. Tiền lương làm thêm giờ, làm việc vào ban đêm\n1. Người lao động làm thêm giờ được trả lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo "
+      },
+      {
+        "rank": 6,
+        "id": "B-BLLD2019-93563d90b42b0181",
+        "score": 17.800203,
+        "source_id": "BLLD2019",
+        "page": 58,
+        "page_end": 58,
+        "article": "Điều 139",
+        "hit": false,
+        "preview": "Điều 139. Nghỉ thai sản\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.\nTrường hợp la"
+      },
+      {
+        "rank": 7,
+        "id": "B-BLLD2019-e39fe37a37981577",
+        "score": 15.146646,
+        "source_id": "BLLD2019",
+        "page": 44,
+        "page_end": 44,
+        "article": "Điều 101",
+        "hit": false,
+        "preview": "Điều 101. Tạm ứng tiền lương\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n2. Người sử dụng lao động phải"
+      },
+      {
+        "rank": 8,
+        "id": "B-BLLD2019-779ea57f0cce8421",
+        "score": 14.837191,
+        "source_id": "BLLD2019",
+        "page": 47,
+        "page_end": 47,
+        "article": "Điều 109",
+        "hit": false,
+        "preview": "Mục 2\nTHỜI GIỜ NGHỈ NGƠI\nĐiều 109. Nghỉ trong giờ làm việc\n1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở"
+      },
+      {
+        "rank": 9,
+        "id": "B-BLLD2019-a027e32e2fab7769",
+        "score": 14.590734,
+        "source_id": "BLLD2019",
+        "page": 57,
+        "page_end": 57,
+        "article": "Điều 137",
+        "hit": false,
+        "preview": "Điều 137. Bảo vệ thai sản\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:"
+      },
+      {
+        "rank": 10,
+        "id": "B-BLLD2019-70c986bb7a5e88e3",
+        "score": 12.690542,
+        "source_id": "BLLD2019",
+        "page": 47,
+        "page_end": 47,
+        "article": "Điều 110",
+        "hit": false,
+        "preview": "Điều 110. Nghỉ chuyển ca\nNgười lao động làm việc theo ca được nghỉ ít nhất 12 giờ trước khi chuyển sang ca làm việc khác."
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-a52181baed27c2da",
+      "B-BLLD2019-780eb8cd23f8d636",
+      "B-BLLD2019-6650b39fc41c3083"
+    ],
+    "context_chars": 3330,
+    "elapsed_ms": 2.6,
+    "error": null,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "Thời giờ làm việc bình thường tối đa là bao nhiêu giờ một ngày và một tuần?",
+    "filters": null,
+    "method": "bm25_bigram",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B-BLLD2019-e4d24666be6544d4",
+        "score": 59.7152,
+        "source_id": "BLLD2019",
+        "page": 45,
+        "page_end": 45,
+        "article": "Điều 105",
+        "hit": true,
+        "preview": "Chương VII\nTHỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI\nMục 1\nTHỜI GIỜ LÀM VIỆC\nĐiều 105. Thời giờ làm việc bình thường\n1. Thời giờ làm việc bình thường không quá 08 g"
+      },
+      {
+        "rank": 2,
+        "id": "B-BLLD2019-b100c3bafa13ff0b",
+        "score": 40.451465,
+        "source_id": "BLLD2019",
+        "page": 45,
+        "page_end": 46,
+        "article": "Điều 107",
+        "hit": false,
+        "preview": "Điều 107. Làm thêm giờ\n1. Thời gian làm thêm giờ là khoảng thời gian làm việc ngoài thời giờ làm việc bình thường theo quy định của pháp luật, thỏa ước lao động"
+      },
+      {
+        "rank": 3,
+        "id": "B-BLLD2019-22427d5948ebe1ba",
+        "score": 39.335031,
+        "source_id": "BLLD2019",
+        "page": 60,
+        "page_end": 60,
+        "article": "Điều 146",
+        "hit": false,
+        "preview": "Điều 146. Thời giờ làm việc của người chưa thành niên\n1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần"
+      },
+      {
+        "rank": 4,
+        "id": "B-BLLD2019-681e2e619b1270b3",
+        "score": 34.335635,
+        "source_id": "BLLD2019",
+        "page": 43,
+        "page_end": 43,
+        "article": "Điều 98",
+        "hit": false,
+        "preview": "Điều 98. Tiền lương làm thêm giờ, làm việc vào ban đêm\n1. Người lao động làm thêm giờ được trả lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo "
+      },
+      {
+        "rank": 5,
+        "id": "B-BLLD2019-aae1aa805cb6066b",
+        "score": 33.38396,
+        "source_id": "BLLD2019",
+        "page": 64,
+        "page_end": 64,
+        "article": "Điều 155",
+        "hit": false,
+        "preview": "Điều 155. Thời hạn của giấy phép lao động\nThời hạn của giấy phép lao động tối đa là 02 năm, trường hợp gia hạn thì chỉ được gia hạn một lần với thời hạn tối đa "
+      },
+      {
+        "rank": 6,
+        "id": "B-BLLD2019-779ea57f0cce8421",
+        "score": 30.062101,
+        "source_id": "BLLD2019",
+        "page": 47,
+        "page_end": 47,
+        "article": "Điều 109",
+        "hit": false,
+        "preview": "Mục 2\nTHỜI GIỜ NGHỈ NGƠI\nĐiều 109. Nghỉ trong giờ làm việc\n1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở"
+      },
+      {
+        "rank": 7,
+        "id": "B-BLLD2019-34458f71acf95892",
+        "score": 27.054248,
+        "source_id": "BLLD2019",
+        "page": 15,
+        "page_end": 15,
+        "article": "Điều 32",
+        "hit": false,
+        "preview": "Điều 32. Làm việc không trọn thời gian\n1. Người lao động làm việc không trọn thời gian là người lao động có thời gian làm việc ngắn hơn so với thời gian làm việ"
+      },
+      {
+        "rank": 8,
+        "id": "B-BLLD2019-e5df87d1ac11b468",
+        "score": 26.115985,
+        "source_id": "BLLD2019",
+        "page": 41,
+        "page_end": 41,
+        "article": "Điều 93",
+        "hit": false,
+        "preview": "Điều 93. Xây dựng thang lương, bảng lương và định mức lao động\n1. Người sử dụng lao động phải xây dựng thang lương, bảng lương và định mức lao động làm cơ sở để"
+      },
+      {
+        "rank": 9,
+        "id": "B-BLLD2019-aad0f5b50ffbb146",
+        "score": 22.227982,
+        "source_id": "BLLD2019",
+        "page": 49,
+        "page_end": 49,
+        "article": "Điều 116",
+        "hit": false,
+        "preview": "Mục 3\nTHỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI ĐỐI VỚI NGƯỜI LÀM CÔNG VIỆC CÓ TÍNH CHẤT ĐẶC BIỆT\nĐiều 116. Thời giờ làm việc, thời giờ nghỉ ngơi đối với người làm "
+      },
+      {
+        "rank": 10,
+        "id": "B-BLLD2019-ee7d1b023f09fa27",
+        "score": 21.829939,
+        "source_id": "BLLD2019",
+        "page": 56,
+        "page_end": 56,
+        "article": "Điều 136",
+        "hit": false,
+        "preview": "Điều 136. Trách nhiệm của người sử dụng lao động\n1. Bảo đảm thực hiện bình đẳng giới và các biện pháp thúc đẩy bình đẳng giới trong tuyển dụng, bố trí, sắp xếp "
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-e4d24666be6544d4",
+      "B-BLLD2019-b100c3bafa13ff0b",
+      "B-BLLD2019-22427d5948ebe1ba"
+    ],
+    "context_chars": 3335,
+    "elapsed_ms": 2.5,
+    "error": null,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "Sau khi nộp đủ hồ sơ, người lao động phải chưa có việc làm trong bao lâu thì mới đủ điều kiện hưởng trợ cấp thất nghiệp?",
+    "filters": {
+      "year": 2025
+    },
+    "method": "bm25_bigram",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B-LVL2025-ac97241c000ac4b5",
+        "score": 70.594358,
+        "source_id": "LVL2025",
+        "page": 45,
+        "page_end": 46,
+        "article": "Điều 38",
+        "hit": true,
+        "preview": "Mục 4\nTRỢ CẤP THẤT NGHIỆP\nĐiều 38. Điều kiện hưởng\n1. Người lao động quy định tại khoản 1 Điều 31 của Luật này đang đóng bảo hiểm thất nghiệp được hưởng trợ cấp"
+      },
+      {
+        "rank": 2,
+        "id": "B-LVL2025-bfcab6f7e936f50f",
+        "score": 63.109378,
+        "source_id": "LVL2025",
+        "page": 46,
+        "page_end": 46,
+        "article": "Điều 39",
+        "hit": false,
+        "preview": "Điều 39. Mức hưởng, thời gian hưởng, thời điểm hưởng và hồ sơ, trình tự, thủ tục hưởng trợ cấp thất nghiệp\n1. Mức hưởng trợ cấp thất nghiệp hằng tháng bằng 60% "
+      },
+      {
+        "rank": 3,
+        "id": "B-LVL2025-b5b5320f5b5b4b09",
+        "score": 47.738075,
+        "source_id": "LVL2025",
+        "page": 44,
+        "page_end": 45,
+        "article": "Điều 37",
+        "hit": false,
+        "preview": "Điều 37. Hỗ trợ người lao động tham gia đào tạo, nâng cao trình độ kỹ năng nghề\n1. Người lao động đang hưởng trợ cấp thất nghiệp được hỗ trợ đào tạo, nâng cao t"
+      },
+      {
+        "rank": 4,
+        "id": "B-LVL2025-4858f9997f033ba7",
+        "score": 45.41989,
+        "source_id": "LVL2025",
+        "page": 47,
+        "page_end": 48,
+        "article": "Điều 41",
+        "hit": false,
+        "preview": "Điều 41. Chuyển nơi hưởng, tạm dừng, tiếp tục, chấm dứt hưởng và hủy hưởng trợ cấp thất nghiệp\n1. Trong thời gian hưởng trợ cấp thất nghiệp, người lao động được"
+      },
+      {
+        "rank": 5,
+        "id": "B-LVL2025-2696eac98bdde249",
+        "score": 43.031038,
+        "source_id": "LVL2025",
+        "page": 44,
+        "page_end": 44,
+        "article": "Điều 35",
+        "hit": false,
+        "preview": "Điều 35. Thời gian đóng bảo hiểm thất nghiệp\n1. Thời gian đóng bảo hiểm thất nghiệp để xét hưởng các chế độ bảo hiểm thất nghiệp là tổng thời gian đã đóng bảo h"
+      },
+      {
+        "rank": 6,
+        "id": "B-LVL2025-a2154c34acbfcc60",
+        "score": 39.246292,
+        "source_id": "LVL2025",
+        "page": 47,
+        "page_end": 47,
+        "article": "Điều 40",
+        "hit": false,
+        "preview": "Điều 40. Trách nhiệm thông báo về việc tìm kiếm việc làm của người lao động\n1. Trong thời gian hưởng trợ cấp thất nghiệp, hằng tháng, người lao động phải thông "
+      },
+      {
+        "rank": 7,
+        "id": "B-LVL2025-e284bec4a132aff0",
+        "score": 34.411327,
+        "source_id": "LVL2025",
+        "page": 48,
+        "page_end": 48,
+        "article": "Điều 41",
+        "hit": false,
+        "preview": "Điều 41. Chuyển nơi hưởng, tạm dừng, tiếp tục, chấm dứt hưởng và hủy hưởng trợ cấp thất nghiệp (tiếp)\n5. Người lao động bị chấm dứt hưởng trợ cấp thất nghiệp th"
+      },
+      {
+        "rank": 8,
+        "id": "B-LVL2025-99f087c95ef9c99a",
+        "score": 30.854458,
+        "source_id": "LVL2025",
+        "page": 53,
+        "page_end": 53,
+        "article": "Điều 55",
+        "hit": false,
+        "preview": "Điều 55. Quy định chuyển tiếp\n1. Chuyển nguồn Quỹ quốc gia về việc làm thành nguồn ngân sách trung ương cấp cho Ngân hàng Chính sách xã hội để làm nguồn vốn cho"
+      },
+      {
+        "rank": 9,
+        "id": "B-LVL2025-64d7fd207e8f099f",
+        "score": 30.388203,
+        "source_id": "LVL2025",
+        "page": 40,
+        "page_end": 41,
+        "article": "Điều 31",
+        "hit": false,
+        "preview": "Điều 31. Đối tượng tham gia bảo hiểm thất nghiệp\n1. Người lao động thuộc đối tượng tham gia bảo hiểm thất nghiệp bao gồm:\na) Người làm việc theo hợp đồng lao độ"
+      },
+      {
+        "rank": 10,
+        "id": "B-LVL2025-4a94a978daecf09d",
+        "score": 28.339782,
+        "source_id": "LVL2025",
+        "page": 48,
+        "page_end": 49,
+        "article": "Điều 42",
+        "hit": false,
+        "preview": "Mục 5\nHỖ TRỢ NGƯỜI SỬ DỤNG LAO ĐỘNG ĐÀO TẠO, BỒI DƯỠNG, NÂNG CAO TRÌNH ĐỘ KỸ NĂNG NGHỀ ĐỂ DUY TRÌ VIỆC LÀM CHO NGƯỜI LAO ĐỘNG\nĐiều 42. Hỗ trợ người sử dụng lao "
+      }
+    ],
+    "context_ids": [
+      "B-LVL2025-ac97241c000ac4b5",
+      "B-LVL2025-bfcab6f7e936f50f",
+      "B-LVL2025-b5b5320f5b5b4b09"
+    ],
+    "context_chars": 5012,
+    "elapsed_ms": 0.9,
+    "error": null,
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "answerable": false,
+    "question": "Lao động nam được nghỉ bao nhiêu ngày làm việc hưởng chế độ thai sản khi vợ sinh con thường?",
+    "filters": null,
+    "method": "bm25_bigram",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B-BLLD2019-93563d90b42b0181",
+        "score": 78.738525,
+        "source_id": "BLLD2019",
+        "page": 58,
+        "page_end": 58,
+        "article": "Điều 139",
+        "hit": false,
+        "preview": "Điều 139. Nghỉ thai sản\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.\nTrường hợp la"
+      },
+      {
+        "rank": 2,
+        "id": "B-BLLD2019-a027e32e2fab7769",
+        "score": 33.580388,
+        "source_id": "BLLD2019",
+        "page": 57,
+        "page_end": 57,
+        "article": "Điều 137",
+        "hit": false,
+        "preview": "Điều 137. Bảo vệ thai sản\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:"
+      },
+      {
+        "rank": 3,
+        "id": "B-BLLD2019-780eb8cd23f8d636",
+        "score": 33.023468,
+        "source_id": "BLLD2019",
+        "page": 48,
+        "page_end": 49,
+        "article": "Điều 115",
+        "hit": false,
+        "preview": "Điều 115. Nghỉ việc riêng, nghỉ không hưởng lương\n1. Người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương và phải thông báo với người sử dụng lao động "
+      },
+      {
+        "rank": 4,
+        "id": "B-BLLD2019-48d28bc2bf150748",
+        "score": 28.690336,
+        "source_id": "BLLD2019",
+        "page": 58,
+        "page_end": 59,
+        "article": "Điều 141",
+        "hit": false,
+        "preview": "Điều 141. Trợ cấp trong thời gian chăm sóc con ốm đau, thai sản và thực hiện các biện pháp tránh thai Thời gian nghỉ việc khi chăm sóc con dưới 07 tuổi ốm đau, "
+      },
+      {
+        "rank": 5,
+        "id": "B-BLLD2019-2e4f6c0372ced8ba",
+        "score": 25.71979,
+        "source_id": "BLLD2019",
+        "page": 58,
+        "page_end": 58,
+        "article": "Điều 140",
+        "hit": false,
+        "preview": "Điều 140. Bảo đảm việc làm cho lao động nghỉ thai sản\nLao động được bảo đảm việc làm cũ khi trở lại làm việc sau khi nghỉ hết thời gian theo quy định tại các kh"
+      },
+      {
+        "rank": 6,
+        "id": "B-BLLD2019-a52181baed27c2da",
+        "score": 24.99415,
+        "source_id": "BLLD2019",
+        "page": 47,
+        "page_end": 48,
+        "article": "Điều 112",
+        "hit": false,
+        "preview": "Điều 112. Nghỉ lễ, tết\n1. Người lao động được nghỉ làm việc, hưởng nguyên lương trong những ngày lễ, tết sau đây:\na) Tết Dương lịch: 01 ngày (ngày 01 tháng 01 d"
+      },
+      {
+        "rank": 7,
+        "id": "B-BLLD2019-18aa963103234c99",
+        "score": 24.160781,
+        "source_id": "BLLD2019",
+        "page": 31,
+        "page_end": 31,
+        "article": "Điều 67",
+        "hit": false,
+        "preview": "Điều 67. Nội dung thương lượng tập thể\nCác bên thương lượng lựa chọn một hoặc một số nội dung sau để tiến hành thương lượng tập thể:\n1. Tiền lương, trợ cấp, nân"
+      },
+      {
+        "rank": 8,
+        "id": "B-BLLD2019-8e12dac6e411f497",
+        "score": 22.718518,
+        "source_id": "BLLD2019",
+        "page": 68,
+        "page_end": 69,
+        "article": "Điều 169",
+        "hit": false,
+        "preview": "Điều 169. Tuổi nghỉ hưu\n1. Người lao động bảo đảm điều kiện về thời gian đóng bảo hiểm xã hội theo quy định của pháp luật về bảo hiểm xã hội được hưởng lương hư"
+      },
+      {
+        "rank": 9,
+        "id": "B-BLLD2019-6650b39fc41c3083",
+        "score": 22.127155,
+        "source_id": "BLLD2019",
+        "page": 48,
+        "page_end": 48,
+        "article": "Điều 113",
+        "hit": false,
+        "preview": "Điều 113. Nghỉ hằng năm\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động "
+      },
+      {
+        "rank": 10,
+        "id": "B-BLLD2019-e259ffed0bc6d986",
+        "score": 21.414072,
+        "source_id": "BLLD2019",
+        "page": 19,
+        "page_end": 19,
+        "article": "Điều 37",
+        "hit": false,
+        "preview": "Điều 37. Trường hợp người sử dụng lao động không được thực hiện quyền đơn phương chấm dứt hợp đồng lao động\n1. Người lao động ốm đau hoặc bị tai n ạn, bệnh nghề"
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-93563d90b42b0181",
+      "B-BLLD2019-a027e32e2fab7769",
+      "B-BLLD2019-780eb8cd23f8d636"
+    ],
+    "context_chars": 4132,
+    "elapsed_ms": 3.0,
+    "error": null
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "answerable": false,
+    "question": "Người sử dụng lao động không đóng bảo hiểm thất nghiệp cho người lao động thì bị phạt tiền bao nhiêu?",
+    "filters": null,
+    "method": "bm25_bigram",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "B-LVL2025-534986cec945bfb7",
+        "score": 54.786259,
+        "source_id": "LVL2025",
+        "page": 43,
+        "page_end": 43,
+        "article": "Điều 33",
+        "hit": false,
+        "preview": "Điều 33. Đóng bảo hiểm thất nghiệp (tiếp)\n7. Người sử dụng lao động có trách nhiệm đóng đủ bảo hiểm thất nghiệp theo quy định đối với người lao động khi chấm dứ"
+      },
+      {
+        "rank": 2,
+        "id": "B-LVL2025-8a3f9521b8967120",
+        "score": 43.759771,
+        "source_id": "LVL2025",
+        "page": 42,
+        "page_end": 43,
+        "article": "Điều 33",
+        "hit": false,
+        "preview": "Điều 33. Đóng bảo hiểm thất nghiệp\n1. Mức đóng và trách nhiệm đóng bảo hiểm thất nghiệp được quy định như sau:\na) Người lao động đóng tối đa bằng 1% tiền lương "
+      },
+      {
+        "rank": 3,
+        "id": "B-BLLD2019-45c2e95d73314cc4",
+        "score": 43.405807,
+        "source_id": "BLLD2019",
+        "page": 68,
+        "page_end": 68,
+        "article": "Điều 168",
+        "hit": false,
+        "preview": "Chương XII\nBẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP\nĐiều 168. Tham gia bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp\n1. Người sử dụng lao độn"
+      },
+      {
+        "rank": 4,
+        "id": "B-LVL2025-baca82425b6bbde8",
+        "score": 41.923017,
+        "source_id": "LVL2025",
+        "page": 43,
+        "page_end": 44,
+        "article": "Điều 34",
+        "hit": false,
+        "preview": "Điều 34. Căn cứ đóng bảo hiểm thất nghiệp\n1. Tiền lương làm căn cứ đóng bảo hiểm thất nghiệp được quy định như sau:\na) Người lao động thuộc đối tượng thực hiện "
+      },
+      {
+        "rank": 5,
+        "id": "B-LVL2013-defafe27170636a4",
+        "score": 40.26766,
+        "source_id": "LVL2013",
+        "page": 68,
+        "page_end": 69,
+        "article": "Điều 57",
+        "hit": false,
+        "preview": "Mục 5\nQUỸ BẢO HIỂM THẤT NGHIỆP\nĐiều 57. Mức đóng, nguồn hình thành và sử dụng Quỹ bảo hiểm thất nghiệp\n1. Mức đóng và trách nhiệm đóng bảo hiểm thất nghiệp được"
+      },
+      {
+        "rank": 6,
+        "id": "B-LVL2013-323c50e98de77d93",
+        "score": 39.862465,
+        "source_id": "LVL2013",
+        "page": 69,
+        "page_end": 69,
+        "article": "Điều 58",
+        "hit": false,
+        "preview": "Điều 58. Tiền lương làm căn cứ đóng bảo hiểm thất nghiệp\n1. Người lao động thuộc đối tượng thực hiện chế độ tiền lương do Nhà nước quy định thì tiền lương tháng"
+      },
+      {
+        "rank": 7,
+        "id": "B-LVL2013-4106f25a17d86473",
+        "score": 39.345804,
+        "source_id": "LVL2013",
+        "page": 64,
+        "page_end": 64,
+        "article": "Điều 45",
+        "hit": false,
+        "preview": "Điều 45. Thời gian đóng bảo hiểm thất nghiệp\n1. Thời gian đóng bảo hiểm thất nghiệp để xét hưởng bảo hiểm thất nghiệp là tổng các kho ảng thời gian đã đóng bảo "
+      },
+      {
+        "rank": 8,
+        "id": "B-LVL2013-843f4b54f12ed0aa",
+        "score": 37.767275,
+        "source_id": "LVL2013",
+        "page": 63,
+        "page_end": 63,
+        "article": "Điều 44",
+        "hit": false,
+        "preview": "Điều 44. Tham gia bảo hiểm thất nghiệp\n1. Người sử dụng lao động phải tham gia bảo hiểm thất nghiệp cho người lao động tại tổ chức bảo hiểm xã hội trong thời hạ"
+      },
+      {
+        "rank": 9,
+        "id": "B-LVL2025-a677d8be3965d033",
+        "score": 35.336981,
+        "source_id": "LVL2025",
+        "page": 40,
+        "page_end": 40,
+        "article": "Điều 30",
+        "hit": false,
+        "preview": "Điều 30. Các chế độ bảo hiểm thất nghiệp\n1. Các chế độ bảo hiểm thất nghiệp bao gồm:\na) Tư vấn, giới thiệu việc làm;\nb) Hỗ trợ người lao động tham gia đào tạo, "
+      },
+      {
+        "rank": 10,
+        "id": "B-LVL2025-2696eac98bdde249",
+        "score": 34.896738,
+        "source_id": "LVL2025",
+        "page": 44,
+        "page_end": 44,
+        "article": "Điều 35",
+        "hit": false,
+        "preview": "Điều 35. Thời gian đóng bảo hiểm thất nghiệp\n1. Thời gian đóng bảo hiểm thất nghiệp để xét hưởng các chế độ bảo hiểm thất nghiệp là tổng thời gian đã đóng bảo h"
+      }
+    ],
+    "context_ids": [
+      "B-LVL2025-534986cec945bfb7",
+      "B-LVL2025-8a3f9521b8967120",
+      "B-BLLD2019-45c2e95d73314cc4"
+    ],
+    "context_chars": 3917,
+    "elapsed_ms": 3.5,
+    "error": null
+  }
+]

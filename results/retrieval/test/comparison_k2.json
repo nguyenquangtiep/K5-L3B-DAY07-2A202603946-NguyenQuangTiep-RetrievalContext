@@ -1,0 +1,23 @@
+[
+  {
+    "method": "dense",
+    "split": "test",
+    "top_k": 2,
+    "budget_chars": 4000,
+    "use_filter": true,
+    "n_answerable": 5,
+    "n_unanswerable_run": 2,
+    "errors": 0,
+    "hit1": 5,
+    "hit3": 5,
+    "context_hit": 5,
+    "mrr10": 1.0,
+    "avg_context_chars": 2702,
+    "median_ms": 24.3,
+    "cost_usd": 0.0,
+    "misses_hit3": [],
+    "misses_hit1": [],
+    "config": "dense",
+    "run_at": "2026-11-16T12:00:23"
+  }
+]

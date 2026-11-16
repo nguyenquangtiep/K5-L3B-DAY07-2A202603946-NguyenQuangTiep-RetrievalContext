@@ -1,0 +1,19 @@
+{
+  "config": "A2_dense_strict",
+  "split": "dev",
+  "model": "gemini-3.1-flash-lite",
+  "retriever": "dense",
+  "max_searches": 3,
+  "top_k": 3,
+  "budget_chars": 6000,
+  "prompt": "strict_refs",
+  "n": 17,
+  "status": {
+    "answered": 15,
+    "abstain": 2,
+    "error": 0
+  },
+  "llm_calls": 34,
+  "cost_usd": 0,
+  "note": "Tóm tắt tự động; điểm câu trả lời/citation/abstention phải chấm tay."
+}

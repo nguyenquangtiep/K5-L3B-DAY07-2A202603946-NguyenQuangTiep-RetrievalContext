@@ -1,0 +1,24 @@
+{
+  "method": "rerank(dense)",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 3000,
+  "use_filter": true,
+  "n_answerable": 15,
+  "n_unanswerable_run": 2,
+  "errors": 0,
+  "hit1": 13,
+  "hit3": 15,
+  "context_hit": 15,
+  "mrr10": 0.9333,
+  "avg_context_chars": 2440.5,
+  "median_ms": 488.0,
+  "cost_usd": 0.0,
+  "misses_hit3": [],
+  "misses_hit1": [
+    "q03",
+    "q13"
+  ],
+  "config": "rerank_dense",
+  "run_at": "2026-11-16T10:53:19"
+}

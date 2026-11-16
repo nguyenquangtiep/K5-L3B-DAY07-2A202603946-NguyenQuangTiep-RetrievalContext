@@ -12,12 +12,12 @@
   "context_hit": 15,
   "mrr10": 0.9667,
   "avg_context_chars": 2279.1,
-  "median_ms": 33.0,
+  "median_ms": 37.8,
   "cost_usd": 0.0,
   "misses_hit3": [],
   "misses_hit1": [
     "q14"
   ],
   "config": "dense",
-  "run_at": "2026-11-16T10:01:40"
+  "run_at": "2026-11-16T10:53:10"
 }

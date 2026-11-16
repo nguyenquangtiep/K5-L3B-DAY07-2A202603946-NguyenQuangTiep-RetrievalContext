@@ -1,0 +1,957 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "Lao động nữ được nghỉ thai sản bao lâu và tối đa bao nhiêu tháng trước khi sinh?",
+    "config": "A0_dense_s3",
+    "run_at": "2026-11-16T12:02:29",
+    "status": "answered",
+    "answer": "Theo quy định tại Bộ luật Lao động 2019:\n\n*   **Thời gian nghỉ thai sản:** Lao động nữ được nghỉ trước và sau khi sinh con là 06 tháng. Trường hợp sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng [B-BLLD2019-93563d90b42b0181].\n*   **Thời gian nghỉ trước khi sinh:** Tối đa không quá 02 tháng [B-BLLD2019-93563d90b42b0181].",
+    "citations": [
+      "B-BLLD2019-93563d90b42b0181"
+    ],
+    "reason": "answered",
+    "error": null,
+    "events": [
+      {
+        "event": "llm",
+        "n": 1,
+        "finish_reason": "tool_calls",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 2.67,
+        "usage": {
+          "prompt_tokens": 578,
+          "completion_tokens": 33,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"query\":\"lao động nữ nghỉ thai sản bao lâu và tối đa bao nhiêu tháng trước khi sinh\"}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "lao động nữ nghỉ thai sản bao lâu và tối đa bao nhiêu tháng trước khi sinh",
+        "filter": null,
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 25.8,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-BLLD2019-93563d90b42b0181",
+            "score": 0.773743,
+            "source_id": "BLLD2019",
+            "page": 58,
+            "page_end": 58,
+            "article": "Điều 139"
+          },
+          {
+            "rank": 2,
+            "id": "B-BLLD2019-a027e32e2fab7769",
+            "score": 0.655177,
+            "source_id": "BLLD2019",
+            "page": 57,
+            "page_end": 57,
+            "article": "Điều 137"
+          },
+          {
+            "rank": 3,
+            "id": "B-BLLD2019-2e4f6c0372ced8ba",
+            "score": 0.581091,
+            "source_id": "BLLD2019",
+            "page": 58,
+            "page_end": 58,
+            "article": "Điều 140"
+          }
+        ],
+        "added_to_context": [
+          "B-BLLD2019-93563d90b42b0181",
+          "B-BLLD2019-a027e32e2fab7769",
+          "B-BLLD2019-2e4f6c0372ced8ba"
+        ],
+        "already_in_context": [],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 2,
+        "finish_reason": "stop",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 3.23,
+        "usage": {
+          "prompt_tokens": 1721,
+          "completion_tokens": 147,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [],
+        "content": "Theo quy định tại Bộ luật Lao động 2019:\n\n*   **Thời gian nghỉ thai sản:** Lao động nữ được nghỉ trước và sau khi sinh con là 06 tháng. Trường hợp sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng [B-BLLD2019-93563d90b42b0181].\n*   **Thời gian nghỉ trước khi sinh:** Tối đa không quá 02 tháng [B-BLLD2019-93563d90b42b0181]."
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Theo quy định tại Bộ luật Lao động 2019:\n\n*   **Thời gian nghỉ thai sản:** Lao động nữ được nghỉ trước và sau khi sinh con là 06 tháng. Trường hợp sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng [B-BLLD2019-93563d90b42b0181].\n*   **Thời gian nghỉ trước khi sinh:** Tối đa không quá 02 tháng [B-BLLD2019-93563d90b42b0181].",
+        "citations_found": [
+          "B-BLLD2019-93563d90b42b0181"
+        ],
+        "invalid_citations": []
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-93563d90b42b0181",
+      "B-BLLD2019-a027e32e2fab7769",
+      "B-BLLD2019-2e4f6c0372ced8ba"
+    ],
+    "context": "[B-BLLD2019-93563d90b42b0181] Bộ luật Lao động 45/2019/QH14 — trang 58\nĐiều 139. Nghỉ thai sản\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.\nTrường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.\n2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm một thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.\n4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động. Trong trường hợp này, ngoài tiền lương của những ngày làm việc do người sử dụng lao động trả, lao động nữ vẫn tiếp tục được hưởng trợ cấp thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n5. Lao động nam khi v ợ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai hộ và người lao động là người mẹ nhờ mang thai hộ được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n\n[B-BLLD2019-a027e32e2fab7769] Bộ luật Lao động 45/2019/QH14 — trang 57\nĐiều 137. Bảo vệ thai sản\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;\nb) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.\n2. Lao động nữ làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm hoặc làm nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản và nuôi con khi mang thai và có thông báo cho người sử dụng lao động biết thì được người sử dụng lao động chuyển sang làm công việc nhẹ hơn, an toàn hơn hoặc giảm bớt 01 giờ làm việc hằng ngày mà không bị cắt giảm tiền lương và quyền, lợi ích cho đến hết thời gian nuôi con dưới 12 tháng tuổi.\n3. Người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi, trừ trường hợp người sử dụng lao động là cá nhân chết, bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết hoặc người sử dụng lao động không phải là cá nhân chấm dứt hoạt động hoặc bị cơ quan chuyên môn về đăng ký kinh doanh thuộc Ủy ban nhân dân cấp tỉnh ra thông báo không có người đại diện theo pháp luật, người được ủy quyền thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật.\nTrường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.\n4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.\n\n[B-BLLD2019-2e4f6c0372ced8ba] Bộ luật Lao động 45/2019/QH14 — trang 58\nĐiều 140. Bảo đảm việc làm cho lao động nghỉ thai sản\nLao động được bảo đảm việc làm cũ khi trở lại làm việc sau khi nghỉ hết thời gian theo quy định tại các khoản 1, 3 và 5 Điều 139 của Bộ luật này mà không bị cắt giảm tiền lương và quyền, lợi ích so với trước khi nghỉ thai sản; trường hợp việc làm cũ không còn thì người sử dụng lao động phải bố trí việc làm khác cho họ với mức lương không thấp hơn mức lương trước khi nghỉ thai sản.",
+    "context_chars": 3820,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 2299,
+      "completion_tokens": 180,
+      "cost_usd": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "elapsed_s": 5.93,
+    "params": {
+      "max_searches": 3,
+      "top_k": 3,
+      "budget_chars": 6000,
+      "prompt_version": "base",
+      "retriever": "dense",
+      "user_info": null
+    },
+    "auto_check": {
+      "context_has_gold": true,
+      "cited_gold": true
+    }
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "Từ năm 2021, lao động nữ làm việc trong điều kiện bình thường nghỉ hưu ở tuổi bao nhiêu?",
+    "config": "A0_dense_s3",
+    "run_at": "2026-11-16T12:02:40",
+    "status": "answered",
+    "answer": "Kể từ năm 2021, tuổi nghỉ hưu của lao động nữ làm việc trong điều kiện bình thường là đủ 55 tuổi 04 tháng; sau đó, cứ mỗi năm tăng thêm 04 tháng [B-BLLD2019-8e12dac6e411f497].",
+    "citations": [
+      "B-BLLD2019-8e12dac6e411f497"
+    ],
+    "reason": "answered",
+    "error": null,
+    "events": [
+      {
+        "event": "llm",
+        "n": 1,
+        "finish_reason": "tool_calls",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 1.35,
+        "usage": {
+          "prompt_tokens": 585,
+          "completion_tokens": 34,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"query\":\"tuổi nghỉ hưu lao động nữ điều kiện bình thường\",\"year\":2019}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "tuổi nghỉ hưu lao động nữ điều kiện bình thường",
+        "filter": {
+          "year": 2019
+        },
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 91.5,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-BLLD2019-8e12dac6e411f497",
+            "score": 0.733439,
+            "source_id": "BLLD2019",
+            "page": 68,
+            "page_end": 69,
+            "article": "Điều 169"
+          },
+          {
+            "rank": 2,
+            "id": "B-BLLD2019-17577f7ba18121d1",
+            "score": 0.679474,
+            "source_id": "BLLD2019",
+            "page": 91,
+            "page_end": 92,
+            "article": "Điều 219"
+          },
+          {
+            "rank": 3,
+            "id": "B-BLLD2019-0d46ba102abbb1eb",
+            "score": 0.61971,
+            "source_id": "BLLD2019",
+            "page": 92,
+            "page_end": 92,
+            "article": "Điều 219"
+          }
+        ],
+        "added_to_context": [
+          "B-BLLD2019-8e12dac6e411f497",
+          "B-BLLD2019-17577f7ba18121d1",
+          "B-BLLD2019-0d46ba102abbb1eb"
+        ],
+        "already_in_context": [],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 2,
+        "finish_reason": "stop",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 1.59,
+        "usage": {
+          "prompt_tokens": 2319,
+          "completion_tokens": 74,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [],
+        "content": "Kể từ năm 2021, tuổi nghỉ hưu của lao động nữ làm việc trong điều kiện bình thường là đủ 55 tuổi 04 tháng; sau đó, cứ mỗi năm tăng thêm 04 tháng [B-BLLD2019-8e12dac6e411f497]."
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Kể từ năm 2021, tuổi nghỉ hưu của lao động nữ làm việc trong điều kiện bình thường là đủ 55 tuổi 04 tháng; sau đó, cứ mỗi năm tăng thêm 04 tháng [B-BLLD2019-8e12dac6e411f497].",
+        "citations_found": [
+          "B-BLLD2019-8e12dac6e411f497"
+        ],
+        "invalid_citations": []
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-8e12dac6e411f497",
+      "B-BLLD2019-17577f7ba18121d1",
+      "B-BLLD2019-0d46ba102abbb1eb"
+    ],
+    "context": "[B-BLLD2019-8e12dac6e411f497] Bộ luật Lao động 45/2019/QH14 — trang 68-69\nĐiều 169. Tuổi nghỉ hưu\n1. Người lao động bảo đảm điều kiện về thời gian đóng bảo hiểm xã hội theo quy định của pháp luật về bảo hiểm xã hội được hưởng lương hưu khi đủ tuổi nghỉ hưu.\n2. Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo l ộ trình cho đến khi đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035.\nKể từ năm 2021, tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường là đủ 60 tuổi 03 tháng đối với lao động nam và đủ 55 tuổi 04 tháng đối với lao động nữ; sau đó, cứ mỗi năm tăng thêm 03 tháng đối với lao động nam và 04 tháng đối với lao động nữ.\n3. Người lao động bị suy giảm khả năng lao động; làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm; làm nghề, công việc nặng nhọc, độc hại, nguy hiểm; làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn có thể nghỉ hưu ở tuổi thấp hơn nhưng không quá 05 tuổi so với quy định tại khoản 2 Điều này tại thời điểm nghỉ hưu, trừ trường hợp pháp luật có quy định khác.\n4. Người lao động có trình độ chuyên môn, kỹ thuật cao và một số trường hợp đặc biệt có thể nghỉ hưu ở tuổi cao hơn nhưng không quá 05 tuổi so với quy định tại khoản 2 Điều này tại thời điểm nghỉ hưu, trừ trường hợp pháp luật có quy định khác.\n5. Chính phủ quy định chi tiết Điều này.\n\n[B-BLLD2019-17577f7ba18121d1] Bộ luật Lao động 45/2019/QH14 — trang 91-92\nĐiều 219. Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động (tiếp)\n2. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên được hưởng lương hưu khi thuộc một trong các trường hợp sau đây:\na) Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động, trừ trường hợp Luật Sĩ quan Quân đội nhân dân Việt Nam, Luật Công an nhân dân, Luật Cơ yếu, Luật Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng có quy định khác;\nb) Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 3 Điều 169 của Bộ luật Lao động và có đủ 15 năm làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành hoặc có đủ 15 năm làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn bao gồm cả thời gian làm việc ở nơi có phụ cấp khu vực hệ số 0,7 trở lên trước ngày 01 tháng 01 năm 2021;\nc) Người bị nhi ễm HIV do tai n ạn rủi ro nghề nghiệp trong khi thực hiện nhiệm vụ được giao.\n3. Lao động nữ là cán bộ, công chức cấp xã hoặc là người hoạt động không chuyên trách ở xã, phường, thị trấn tham gia bảo hiểm xã hội khi nghỉ việc mà có từ đủ 15 năm đến dưới 20 năm đóng bảo hiểm xã hội và đủ tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động thì được hưởng lương hưu.\n4. Điều kiện về tuổi hưởng lương hưu đối với một số trường hợp đặc biệt theo quy định của Chính phủ.”;\nb) Sửa đổi, bổ sung Điều 55 như sau:\n“Điều 55. Điều kiện hưởng lương hưu khi suy giảm khả năng lao động\n\n[B-BLLD2019-0d46ba102abbb1eb] Bộ luật Lao động 45/2019/QH14 — trang 92\nĐiều 219. Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động (tiếp)\n1. Người lao động quy định tại các điểm a, b, c, d, g, h và i khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại các điểm a, b và c khoản 1 Điều 54 của Luật này nếu thuộc một trong các trường hợp sau đây:\na) Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động khi bị suy giảm khả năng lao động từ 61% đến dưới 81%;\nb) Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động khi bị suy giảm khả năng lao động từ 81% trở lên;\nc) Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành và bị suy giảm khả năng lao động từ 61% trở lên.\n2. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên, bị suy giảm khả năng lao động từ 61% trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại điểm a và điểm b khoản 2 Điều 54 của Luật này khi thuộc một trong các trường hợp sau đây:\na) Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động;\nb) Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành.”;\nc) Sửa đổi, bổ sung khoản 1 Điều 73 như sau:\n“1. Người lao động hưởng lương hưu khi có đủ các điều kiện sau đây:\na) Đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động;\nb) Đủ 20 năm đóng bảo hiểm xã hội trở lên.”.\n2. Sửa đổi, bổ sung Điều 32 của Bộ luật Tố tụng dân sự số 92/2015/QH13 như sau:\na) Sửa đổi, bổ sung tên điều, khoản 1; bổ sung các khoản 1a, 1b và 1c vào sau khoản 1 như sau:\n“ Điều 32. Những tranh chấp về lao động và tranh chấp liên quan đến lao động thuộc thẩm quyền giải quyết của Tòa án",
+    "context_chars": 5252,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 2904,
+      "completion_tokens": 108,
+      "cost_usd": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "elapsed_s": 3.04,
+    "params": {
+      "max_searches": 3,
+      "top_k": 3,
+      "budget_chars": 6000,
+      "prompt_version": "base",
+      "retriever": "dense",
+      "user_info": null
+    },
+    "auto_check": {
+      "context_has_gold": true,
+      "cited_gold": true
+    }
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "Dịp Tết Nguyên đán người lao động được nghỉ bao nhiêu ngày hưởng nguyên lương?",
+    "config": "A0_dense_s3",
+    "run_at": "2026-11-16T12:02:54",
+    "status": "answered",
+    "answer": "Người lao động được nghỉ làm việc và hưởng nguyên lương trong dịp Tết Âm lịch là 05 ngày [B-BLLD2019-a52181baed27c2da].",
+    "citations": [
+      "B-BLLD2019-a52181baed27c2da"
+    ],
+    "reason": "answered",
+    "error": null,
+    "events": [
+      {
+        "event": "llm",
+        "n": 1,
+        "finish_reason": "tool_calls",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 4.15,
+        "usage": {
+          "prompt_tokens": 577,
+          "completion_tokens": 32,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"year\":2019,\"query\":\"nghỉ Tết Nguyên đán hưởng nguyên lương\"}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "nghỉ Tết Nguyên đán hưởng nguyên lương",
+        "filter": {
+          "year": 2019
+        },
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 84.3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-BLLD2019-a52181baed27c2da",
+            "score": 0.677587,
+            "source_id": "BLLD2019",
+            "page": 47,
+            "page_end": 48,
+            "article": "Điều 112"
+          },
+          {
+            "rank": 2,
+            "id": "B-BLLD2019-6650b39fc41c3083",
+            "score": 0.644987,
+            "source_id": "BLLD2019",
+            "page": 48,
+            "page_end": 48,
+            "article": "Điều 113"
+          },
+          {
+            "rank": 3,
+            "id": "B-BLLD2019-780eb8cd23f8d636",
+            "score": 0.63344,
+            "source_id": "BLLD2019",
+            "page": 48,
+            "page_end": 49,
+            "article": "Điều 115"
+          }
+        ],
+        "added_to_context": [
+          "B-BLLD2019-a52181baed27c2da",
+          "B-BLLD2019-6650b39fc41c3083",
+          "B-BLLD2019-780eb8cd23f8d636"
+        ],
+        "already_in_context": [],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 2,
+        "finish_reason": "stop",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 2.07,
+        "usage": {
+          "prompt_tokens": 1706,
+          "completion_tokens": 47,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [],
+        "content": "Người lao động được nghỉ làm việc và hưởng nguyên lương trong dịp Tết Âm lịch là 05 ngày [B-BLLD2019-a52181baed27c2da]."
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Người lao động được nghỉ làm việc và hưởng nguyên lương trong dịp Tết Âm lịch là 05 ngày [B-BLLD2019-a52181baed27c2da].",
+        "citations_found": [
+          "B-BLLD2019-a52181baed27c2da"
+        ],
+        "invalid_citations": []
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-a52181baed27c2da",
+      "B-BLLD2019-6650b39fc41c3083",
+      "B-BLLD2019-780eb8cd23f8d636"
+    ],
+    "context": "[B-BLLD2019-a52181baed27c2da] Bộ luật Lao động 45/2019/QH14 — trang 47-48\nĐiều 112. Nghỉ lễ, tết\n1. Người lao động được nghỉ làm việc, hưởng nguyên lương trong những ngày lễ, tết sau đây:\na) Tết Dương lịch: 01 ngày (ngày 01 tháng 01 dương lịch);\nb) Tết Âm lịch: 05 ngày;\nc) Ngày Chiến thắng: 01 ngày (ngày 30 tháng 4 dương lịch);\nd) Ngày Quốc tế lao động: 01 ngày (ngày 01 tháng 5 dương lịch);\nđ) Quốc khánh: 02 ngày (ngày 02 tháng 9 dương lịch và 01 ngày li ền kề trước hoặc sau);\ne) Ngày Giỗ Tổ Hùng Vương: 01 ngày (ngày 10 tháng 3 âm lịch).\n2. Lao động là người nước ngoài làm việc tại Việt Nam ngoài các ngày nghỉ theo quy định tại khoản 1 Điều này còn được nghỉ thêm 01 ngày Tết cổ truyền dân tộc và 01 ngày Quốc khánh của nước họ.\n3. Hằng năm, căn cứ vào điều kiện thực tế, Thủ tướng Chính phủ quyết định cụ thể ngày nghỉ quy định tại điểm b và điểm đ khoản 1 Điều này.\n\n[B-BLLD2019-6650b39fc41c3083] Bộ luật Lao động 45/2019/QH14 — trang 48\nĐiều 113. Nghỉ hằng năm\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần.\n5. Khi nghỉ hằng năm mà chưa đến kỳ trả lương, người lao động được tạm ứng tiền lương theo quy định tại khoản 3 Điều 101 của Bộ luật này.\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n7. Chính phủ quy định chi tiết điều này.\n\n[B-BLLD2019-780eb8cd23f8d636] Bộ luật Lao động 45/2019/QH14 — trang 48-49\nĐiều 115. Nghỉ việc riêng, nghỉ không hưởng lương\n1. Người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương và phải thông báo với người sử dụng lao động trong trường hợp sau đây:\na) Kết hôn: nghỉ 03 ngày;\nb) Con đẻ, con nuôi kết hôn: nghỉ 01 ngày;\nc) Cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi; cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi của vợ hoặc chồng; vợ hoặc chồng; con đẻ, con nuôi chết: nghỉ 03 ngày.\n2. Người lao động được nghỉ không hưởng lương 01 ngày và phải thông báo với người sử dụng lao động khi ông nội, bà nội, ông ngoại, bà ngoại, anh, chị, em ruột chết; cha hoặc mẹ kết hôn; anh, chị, em ruột kết hôn.\n3. Ngoài quy định tại khoản 1 và khoản 2 Điều này, người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ không hưởng lương.",
+    "context_chars": 3330,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 2283,
+      "completion_tokens": 79,
+      "cost_usd": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "elapsed_s": 6.3,
+    "params": {
+      "max_searches": 3,
+      "top_k": 3,
+      "budget_chars": 6000,
+      "prompt_version": "base",
+      "retriever": "dense",
+      "user_info": null
+    },
+    "auto_check": {
+      "context_has_gold": true,
+      "cited_gold": true
+    }
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "Thời giờ làm việc bình thường tối đa là bao nhiêu giờ một ngày và một tuần?",
+    "config": "A0_dense_s3",
+    "run_at": "2026-11-16T12:03:05",
+    "status": "answered",
+    "answer": "Thời giờ làm việc bình thường được quy định như sau [B-BLLD2019-e4d24666be6544d4]:\n\n*   **Theo ngày:** Không quá 08 giờ trong 01 ngày.\n*   **Theo tuần:** Không quá 48 giờ trong 01 tuần.\n\n**Trường hợp đặc biệt:** Nếu người sử dụng lao động quy định thời giờ làm việc theo tuần, thì thời giờ làm việc bình thường không quá 10 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần [B-BLLD2019-e4d24666be6544d4].\n\n*Lưu ý: Quy định trên áp dụng cho người lao động nói chung. Đối với người chưa thành niên, thời giờ làm việc có quy định riêng biệt tại Điều 146 Bộ luật Lao động 2019 [B-BLLD2019-22427d5948ebe1ba].*",
+    "citations": [
+      "B-BLLD2019-e4d24666be6544d4",
+      "B-BLLD2019-22427d5948ebe1ba"
+    ],
+    "reason": "answered",
+    "error": null,
+    "events": [
+      {
+        "event": "llm",
+        "n": 1,
+        "finish_reason": "tool_calls",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 1.82,
+        "usage": {
+          "prompt_tokens": 577,
+          "completion_tokens": 28,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"query\":\"thời giờ làm việc bình thường tối đa một ngày một tuần\"}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "thời giờ làm việc bình thường tối đa một ngày một tuần",
+        "filter": null,
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 92.0,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-BLLD2019-e4d24666be6544d4",
+            "score": 0.707814,
+            "source_id": "BLLD2019",
+            "page": 45,
+            "page_end": 45,
+            "article": "Điều 105"
+          },
+          {
+            "rank": 2,
+            "id": "B-BLLD2019-a42037d02ec9de17",
+            "score": 0.619512,
+            "source_id": "BLLD2019",
+            "page": 47,
+            "page_end": 47,
+            "article": "Điều 111"
+          },
+          {
+            "rank": 3,
+            "id": "B-BLLD2019-22427d5948ebe1ba",
+            "score": 0.608292,
+            "source_id": "BLLD2019",
+            "page": 60,
+            "page_end": 60,
+            "article": "Điều 146"
+          }
+        ],
+        "added_to_context": [
+          "B-BLLD2019-e4d24666be6544d4",
+          "B-BLLD2019-a42037d02ec9de17",
+          "B-BLLD2019-22427d5948ebe1ba"
+        ],
+        "already_in_context": [],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 2,
+        "finish_reason": "stop",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 1.54,
+        "usage": {
+          "prompt_tokens": 1330,
+          "completion_tokens": 231,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [],
+        "content": "Thời giờ làm việc bình thường được quy định như sau [B-BLLD2019-e4d24666be6544d4]:\n\n*   **Theo ngày:** Không quá 08 giờ trong 01 ngày.\n*   **Theo tuần:** Không quá 48 giờ trong 01 tuần.\n\n**Trường hợp đặc biệt:** Nếu người sử dụng lao động quy định thời giờ làm việc theo tuần, thì thời giờ làm việc bình thường không quá 10 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần [B-BLLD2019-e4d24666be6544d4].\n\n*Lưu ý: Quy định trên áp dụng cho người lao động nói chung. Đối với người chưa thành niên, thời giờ làm việc có quy định riêng biệt tại Điều 146 Bộ luật Lao động 2019 [B-BLLD2019-22427d5948ebe1ba].*"
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Thời giờ làm việc bình thường được quy định như sau [B-BLLD2019-e4d24666be6544d4]:\n\n*   **Theo ngày:** Không quá 08 giờ trong 01 ngày.\n*   **Theo tuần:** Không quá 48 giờ trong 01 tuần.\n\n**Trường hợp đặc biệt:** Nếu người sử dụng lao động quy định thời giờ làm việc theo tuần, thì thời giờ làm việc bình thường không quá 10 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần [B-BLLD2019-e4d24666be6544d4].\n\n*Lưu ý: Quy định trên áp dụng cho người lao động nói chung. Đối với người chưa thành niên, thời giờ làm việc có quy định riêng biệt tại Điều 146 Bộ luật Lao động 2019 [B-BLLD2019-22427d5948ebe1ba].*",
+        "citations_found": [
+          "B-BLLD2019-e4d24666be6544d4",
+          "B-BLLD2019-22427d5948ebe1ba"
+        ],
+        "invalid_citations": []
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-e4d24666be6544d4",
+      "B-BLLD2019-a42037d02ec9de17",
+      "B-BLLD2019-22427d5948ebe1ba"
+    ],
+    "context": "[B-BLLD2019-e4d24666be6544d4] Bộ luật Lao động 45/2019/QH14 — trang 45\nChương VII\nTHỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI\nMục 1\nTHỜI GIỜ LÀM VIỆC\nĐiều 105. Thời giờ làm việc bình thường\n1. Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.\n2. Người sử dụng lao động có quyền quy định thời giờ làm việc theo ngày hoặc tuần nhưng phải thông báo cho người lao động biết; trường hợp theo tuần thì thời giờ làm việc bình thường không quá 10 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.\nNhà nước khuyến khích người sử dụng lao động thực hiện tuần làm việc 40 giờ đối với người lao động.\n3. Người sử dụng lao động có trách nhiệm bảo đảm giới hạn thời gian làm việc tiếp xúc với yếu tố nguy hiểm, yếu tố có hại đúng theo quy chuẩn kỹ thuật quốc gia và pháp luật có liên quan.\n\n[B-BLLD2019-a42037d02ec9de17] Bộ luật Lao động 45/2019/QH14 — trang 47\nĐiều 111. Nghỉ hằng tuần\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\n2. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động.\n3. Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết quy định tại khoản 1 Điều 112 của Bộ luật này thì người lao động được nghỉ bù ngày nghỉ hằng tuần vào ngày làm việc kế tiếp.\n\n[B-BLLD2019-22427d5948ebe1ba] Bộ luật Lao động 45/2019/QH14 — trang 60\nĐiều 146. Thời giờ làm việc của người chưa thành niên\n1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc vào ban đêm.\n2. Thời giờ làm việc của người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được quá 08 giờ trong 01 ngày và 40 giờ trong 01 tuần. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể được làm thêm giờ, làm việc vào ban đêm trong một số nghề, công việc theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.",
+    "context_chars": 2108,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 1907,
+      "completion_tokens": 259,
+      "cost_usd": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "elapsed_s": 3.45,
+    "params": {
+      "max_searches": 3,
+      "top_k": 3,
+      "budget_chars": 6000,
+      "prompt_version": "base",
+      "retriever": "dense",
+      "user_info": null
+    },
+    "auto_check": {
+      "context_has_gold": true,
+      "cited_gold": true
+    }
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "Sau khi nộp đủ hồ sơ, người lao động phải chưa có việc làm trong bao lâu thì mới đủ điều kiện hưởng trợ cấp thất nghiệp?",
+    "config": "A0_dense_s3",
+    "run_at": "2026-11-16T12:03:18",
+    "status": "answered",
+    "answer": "Theo Luật Việc làm 74/2025/QH15, trong thời hạn **10 ngày làm việc** kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp, người lao động phải không thuộc các trường hợp có việc làm và thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc hoặc các trường hợp loại trừ khác theo quy định [B-LVL2025-ac97241c000ac4b5].\n\nThời điểm hưởng trợ cấp thất nghiệp là ngày làm việc thứ 11 kể từ ngày nộp đủ hồ sơ [B-LVL2025-bfcab6f7e936f50f].",
+    "citations": [
+      "B-LVL2025-ac97241c000ac4b5",
+      "B-LVL2025-bfcab6f7e936f50f"
+    ],
+    "reason": "answered",
+    "error": null,
+    "events": [
+      {
+        "event": "llm",
+        "n": 1,
+        "finish_reason": "tool_calls",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 2.58,
+        "usage": {
+          "prompt_tokens": 618,
+          "completion_tokens": 48,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"query\":\"điều kiện hưởng trợ cấp thất nghiệp chưa có việc làm sau khi nộp hồ sơ Luật Việc làm 2025\",\"year\":2025}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "điều kiện hưởng trợ cấp thất nghiệp chưa có việc làm sau khi nộp hồ sơ Luật Việc làm 2025",
+        "filter": {
+          "year": 2025
+        },
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 96.6,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-LVL2025-ac97241c000ac4b5",
+            "score": 0.684381,
+            "source_id": "LVL2025",
+            "page": 45,
+            "page_end": 46,
+            "article": "Điều 38"
+          },
+          {
+            "rank": 2,
+            "id": "B-LVL2025-bfcab6f7e936f50f",
+            "score": 0.639867,
+            "source_id": "LVL2025",
+            "page": 46,
+            "page_end": 46,
+            "article": "Điều 39"
+          },
+          {
+            "rank": 3,
+            "id": "B-LVL2025-b5b5320f5b5b4b09",
+            "score": 0.632167,
+            "source_id": "LVL2025",
+            "page": 44,
+            "page_end": 45,
+            "article": "Điều 37"
+          }
+        ],
+        "added_to_context": [
+          "B-LVL2025-ac97241c000ac4b5",
+          "B-LVL2025-bfcab6f7e936f50f",
+          "B-LVL2025-b5b5320f5b5b4b09"
+        ],
+        "already_in_context": [],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 2,
+        "finish_reason": "stop",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 1.65,
+        "usage": {
+          "prompt_tokens": 2120,
+          "completion_tokens": 148,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [],
+        "content": "Theo Luật Việc làm 74/2025/QH15, trong thời hạn **10 ngày làm việc** kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp, người lao động phải không thuộc các trường hợp có việc làm và thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc hoặc các trường hợp loại trừ khác theo quy định [B-LVL2025-ac97241c000ac4b5].\n\nThời điểm hưởng trợ cấp thất nghiệp là ngày làm việc thứ 11 kể từ ngày nộp đủ hồ sơ [B-LVL2025-bfcab6f7e936f50f]."
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Theo Luật Việc làm 74/2025/QH15, trong thời hạn **10 ngày làm việc** kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp, người lao động phải không thuộc các trường hợp có việc làm và thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc hoặc các trường hợp loại trừ khác theo quy định [B-LVL2025-ac97241c000ac4b5].\n\nThời điểm hưởng trợ cấp thất nghiệp là ngày làm việc thứ 11 kể từ ngày nộp đủ hồ sơ [B-LVL2025-bfcab6f7e936f50f].",
+        "citations_found": [
+          "B-LVL2025-ac97241c000ac4b5",
+          "B-LVL2025-bfcab6f7e936f50f"
+        ],
+        "invalid_citations": []
+      }
+    ],
+    "context_ids": [
+      "B-LVL2025-ac97241c000ac4b5",
+      "B-LVL2025-bfcab6f7e936f50f",
+      "B-LVL2025-b5b5320f5b5b4b09"
+    ],
+    "context": "[B-LVL2025-ac97241c000ac4b5] Luật Việc làm 74/2025/QH15 — trang 45-46\nMục 4\nTRỢ CẤP THẤT NGHIỆP\nĐiều 38. Điều kiện hưởng\n1. Người lao động quy định tại khoản 1 Điều 31 của Luật này đang đóng bảo hiểm thất nghiệp được hưởng trợ cấp thất nghiệp khi có đủ các điều kiện sau đây:\na) Chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc chấm dứt làm việc theo quy định của pháp luật mà không thuộc một trong các trường hợp người lao động đơn phương chấm dứt hợp đồng lao động trái pháp luật theo quy định của Bộ luật Lao động hoặc người lao động nghỉ việc khi đủ điều kiện hưởng lương hưu.\nb) Đã đóng bảo hiểm thất nghiệp từ đủ 12 tháng trở lên trong thời gian 24 tháng trước khi chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc chấm dứt làm việc theo quy định của pháp luật.\nTrường hợp người lao động làm việc theo hợp đồng lao động có thời hạn từ đủ 01 tháng đến dưới 12 tháng thì phải đóng đủ 12 tháng trở lên trong thời gian 36 tháng trước khi chấm dứt hợp đồng lao động.\nc) Đã nộp đủ hồ sơ hưởng trợ cấp thất nghiệp trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc chấm dứt làm việc.\nd) Trong thời hạn 10 ngày làm việc kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp mà người lao động không thuộc một trong các trường hợp có việc làm và thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định tại Luật Bảo hiểm xã hội hoặc thực hiện nghĩa vụ quân sự, nghĩa vụ tham gia Công an nhân dân, dân quân thường trực hoặc đi học tập có thời hạn trên 1 2 tháng hoặc chấp hành quyết định áp dụng biện pháp đưa vào cơ sở giáo dục bắt buộc, cơ sở cai nghiện bắt buộc hoặc bị tạm giam, chấp hành hình phạt tù hoặc ra nước ngoài định cư hoặc chết.\n2. Chính phủ quy định chi tiết Điều này.\n\n[B-LVL2025-bfcab6f7e936f50f] Luật Việc làm 74/2025/QH15 — trang 46\nĐiều 39. Mức hưởng, thời gian hưởng, thời điểm hưởng và hồ sơ, trình tự, thủ tục hưởng trợ cấp thất nghiệp\n1. Mức hưởng trợ cấp thất nghiệp hằng tháng bằng 60% mức bình quân tiền lương tháng đóng bảo hiểm thất nghiệp của 06 tháng đã đóng bảo hiểm thất nghiệp gần nhất trước khi chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc chấm dứt làm việc nhưng tối đa không quá 05 lần mức lương tối thiểu tháng theo vùng do Chính phủ công bố được áp dụng tại tháng cuối cùng đóng bảo hiểm thất nghiệp.\n2. Thời gian hưởng trợ cấp thất nghiệp được tính theo số tháng đóng bảo hiểm thất nghiệp, cứ đóng đủ 12 tháng đến đủ 36 tháng thì được hưởng 03 tháng trợ cấp thất nghiệp, sau đó, cứ đóng đủ thêm 12 tháng thì được hưởng thêm 01 tháng trợ cấp thất nghiệp nhưng thời gian hưởng trợ cấp thất nghiệp tối đa 12 tháng.\n3. Thời điểm hưởng trợ cấp thất nghiệp là ngày làm việc thứ 11 kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp.\n4. Người lao động đang hưởng trợ cấp thất nghiệp được hưởng chế độ bảo hiểm y tế theo quy định của pháp luật về bảo hiểm y tế, bao gồm thời gian tạm dừng hưởng trợ cấp thất nghiệp theo quy định tại khoản 2 Điều 4 1 của Luật này.\nNgười đang hưởng trợ cấp thất nghiệp được cơ quan bảo hiểm xã hội đóng bảo hiểm y tế từ Quỹ bảo hiểm thất nghiệp.\n5. Chính phủ quy định chi tiết khoản 1 và khoản 2 Điều này; quy định hồ sơ, trình tự, thủ tục hưởng trợ cấp thất nghiệp.\n\n[B-LVL2025-b5b5320f5b5b4b09] Luật Việc làm 74/2025/QH15 — trang 44-45\nĐiều 37. Hỗ trợ người lao động tham gia đào tạo, nâng cao trình độ kỹ năng nghề\n1. Người lao động đang hưởng trợ cấp thất nghiệp được hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề.\n2. Trường hợp người lao động không thuộc đối tượng quy định tại khoản 1 Điều này thì phải đáp ứng đủ các điều kiện sau đây:\na) Thuộc đối tượng quy định tại điểm a khoản 1 Điều 38 của Luật này;\nb) Đã nộp hồ sơ đề nghị hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề trong thời hạn 12 tháng kể từ ngày chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc chấm dứt làm việc;\nc) Trong thời hạn 10 ngày làm việc kể từ ngày nộp đủ hồ sơ đề nghị hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề mà người lao động không thuộc một trong các trường hợp có việc làm và thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định tại Luật Bảo hiểm xã hội hoặc thực hiện nghĩa vụ quân sự, nghĩa vụ tham gia Công an nhân dân, dân quân thường trực hoặc đi học tập có thời hạn trên 12 tháng hoặc chấp hành quyết định áp dụng biện pháp đưa vào cơ sở giáo dục bắt buộc, cơ sở cai nghiện bắt buộc hoặc bị tạm giam , chấp hành hình phạt tù hoặc ra nước ngoài định cư hoặc chết;\nd) Đã đóng bảo hiểm thất nghiệp từ đủ 09 tháng trở lên trong thời gian 36 tháng trước khi chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc chấm dứt làm việc.\n3. Thời gian hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề thực hiện theo khóa học, thời gian học nhưng tổng thời gian hỗ trợ không quá 06 tháng.\n4. Nội dung hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề bao gồm:\na) Học phí;\nb) Tiền ăn cho người lao động trong thời gian tham gia đào tạo, nâng cao trình độ kỹ năng nghề.\n5. Chính phủ quy định chi tiết Điều này; quy định hồ sơ, trình tự, thủ tục hỗ trợ người lao động tham gia đào tạo, nâng cao trình độ kỹ năng nghề.",
+    "context_chars": 5012,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 2738,
+      "completion_tokens": 196,
+      "cost_usd": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "elapsed_s": 4.33,
+    "params": {
+      "max_searches": 3,
+      "top_k": 3,
+      "budget_chars": 6000,
+      "prompt_version": "base",
+      "retriever": "dense",
+      "user_info": {
+        "year": 2025
+      }
+    },
+    "auto_check": {
+      "context_has_gold": true,
+      "cited_gold": true
+    }
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "answerable": false,
+    "question": "Lao động nam được nghỉ bao nhiêu ngày làm việc hưởng chế độ thai sản khi vợ sinh con thường?",
+    "config": "A0_dense_s3",
+    "run_at": "2026-11-16T12:03:30",
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Bộ luật Lao động 2019 chỉ quy định lao động nam khi vợ sinh con được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội [B-BLLD2019-93563d90b42b0181], chứ không nêu cụ thể số ngày nghỉ. Các văn bản trong kho dữ liệu hiện tại không chứa quy định chi tiết về số ngày nghỉ này.",
+    "citations": [
+      "B-BLLD2019-93563d90b42b0181"
+    ],
+    "reason": "model_abstained",
+    "error": null,
+    "events": [
+      {
+        "event": "llm",
+        "n": 1,
+        "finish_reason": "tool_calls",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 2.39,
+        "usage": {
+          "prompt_tokens": 580,
+          "completion_tokens": 26,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"query\":\"lao động nam nghỉ thai sản khi vợ sinh con\"}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "lao động nam nghỉ thai sản khi vợ sinh con",
+        "filter": null,
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 94.4,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-BLLD2019-93563d90b42b0181",
+            "score": 0.665357,
+            "source_id": "BLLD2019",
+            "page": 58,
+            "page_end": 58,
+            "article": "Điều 139"
+          },
+          {
+            "rank": 2,
+            "id": "B-BLLD2019-a027e32e2fab7769",
+            "score": 0.627215,
+            "source_id": "BLLD2019",
+            "page": 57,
+            "page_end": 57,
+            "article": "Điều 137"
+          },
+          {
+            "rank": 3,
+            "id": "B-BLLD2019-2e4f6c0372ced8ba",
+            "score": 0.579578,
+            "source_id": "BLLD2019",
+            "page": 58,
+            "page_end": 58,
+            "article": "Điều 140"
+          }
+        ],
+        "added_to_context": [
+          "B-BLLD2019-93563d90b42b0181",
+          "B-BLLD2019-a027e32e2fab7769",
+          "B-BLLD2019-2e4f6c0372ced8ba"
+        ],
+        "already_in_context": [],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 2,
+        "finish_reason": "stop",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 1.65,
+        "usage": {
+          "prompt_tokens": 1716,
+          "completion_tokens": 107,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [],
+        "content": "KHÔNG ĐỦ BẰNG CHỨNG: Bộ luật Lao động 2019 chỉ quy định lao động nam khi vợ sinh con được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội [B-BLLD2019-93563d90b42b0181], chứ không nêu cụ thể số ngày nghỉ. Các văn bản trong kho dữ liệu hiện tại không chứa quy định chi tiết về số ngày nghỉ này."
+      },
+      {
+        "event": "answer",
+        "raw_answer": "KHÔNG ĐỦ BẰNG CHỨNG: Bộ luật Lao động 2019 chỉ quy định lao động nam khi vợ sinh con được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội [B-BLLD2019-93563d90b42b0181], chứ không nêu cụ thể số ngày nghỉ. Các văn bản trong kho dữ liệu hiện tại không chứa quy định chi tiết về số ngày nghỉ này.",
+        "citations_found": [
+          "B-BLLD2019-93563d90b42b0181"
+        ],
+        "invalid_citations": []
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-93563d90b42b0181",
+      "B-BLLD2019-a027e32e2fab7769",
+      "B-BLLD2019-2e4f6c0372ced8ba"
+    ],
+    "context": "[B-BLLD2019-93563d90b42b0181] Bộ luật Lao động 45/2019/QH14 — trang 58\nĐiều 139. Nghỉ thai sản\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.\nTrường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.\n2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm một thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.\n4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động. Trong trường hợp này, ngoài tiền lương của những ngày làm việc do người sử dụng lao động trả, lao động nữ vẫn tiếp tục được hưởng trợ cấp thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n5. Lao động nam khi v ợ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai hộ và người lao động là người mẹ nhờ mang thai hộ được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n\n[B-BLLD2019-a027e32e2fab7769] Bộ luật Lao động 45/2019/QH14 — trang 57\nĐiều 137. Bảo vệ thai sản\n1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây:\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;\nb) Đang nuôi con dưới 12 tháng tuổi, trừ trường hợp được người lao động đồng ý.\n2. Lao động nữ làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm hoặc làm nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản và nuôi con khi mang thai và có thông báo cho người sử dụng lao động biết thì được người sử dụng lao động chuyển sang làm công việc nhẹ hơn, an toàn hơn hoặc giảm bớt 01 giờ làm việc hằng ngày mà không bị cắt giảm tiền lương và quyền, lợi ích cho đến hết thời gian nuôi con dưới 12 tháng tuổi.\n3. Người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi, trừ trường hợp người sử dụng lao động là cá nhân chết, bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết hoặc người sử dụng lao động không phải là cá nhân chấm dứt hoạt động hoặc bị cơ quan chuyên môn về đăng ký kinh doanh thuộc Ủy ban nhân dân cấp tỉnh ra thông báo không có người đại diện theo pháp luật, người được ủy quyền thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật.\nTrường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.\n4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.\n\n[B-BLLD2019-2e4f6c0372ced8ba] Bộ luật Lao động 45/2019/QH14 — trang 58\nĐiều 140. Bảo đảm việc làm cho lao động nghỉ thai sản\nLao động được bảo đảm việc làm cũ khi trở lại làm việc sau khi nghỉ hết thời gian theo quy định tại các khoản 1, 3 và 5 Điều 139 của Bộ luật này mà không bị cắt giảm tiền lương và quyền, lợi ích so với trước khi nghỉ thai sản; trường hợp việc làm cũ không còn thì người sử dụng lao động phải bố trí việc làm khác cho họ với mức lương không thấp hơn mức lương trước khi nghỉ thai sản.",
+    "context_chars": 3820,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 2296,
+      "completion_tokens": 133,
+      "cost_usd": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "elapsed_s": 4.13,
+    "params": {
+      "max_searches": 3,
+      "top_k": 3,
+      "budget_chars": 6000,
+      "prompt_version": "base",
+      "retriever": "dense",
+      "user_info": null
+    },
+    "auto_check": {}
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "answerable": false,
+    "question": "Người sử dụng lao động không đóng bảo hiểm thất nghiệp cho người lao động thì bị phạt tiền bao nhiêu?",
+    "config": "A0_dense_s3",
+    "run_at": "2026-11-16T12:03:42",
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các văn bản được cung cấp (Bộ luật Lao động 2019, Luật Việc làm 2013, Luật Việc làm 2025) quy định về trách nhiệm tham gia và đóng bảo hiểm thất nghiệp của người sử dụng lao động [B-LVL2013-6ec999147ee44cda], [B-BLLD2019-45c2e95d73314cc4], [B-LVL2025-534986cec945bfb7], nhưng không quy định cụ thể mức phạt tiền đối với hành vi không đóng bảo hiểm thất nghiệp. Luật Việc làm 2025 chỉ nêu trường hợp không đóng đủ thì người sử dụng lao động phải trả khoản tiền tương ứng với các chế độ bảo hiểm thất nghiệp mà người lao động được hưởng [B-LVL2025-534986cec945bfb7].",
+    "citations": [
+      "B-LVL2013-6ec999147ee44cda",
+      "B-BLLD2019-45c2e95d73314cc4",
+      "B-LVL2025-534986cec945bfb7"
+    ],
+    "reason": "model_abstained",
+    "error": null,
+    "events": [
+      {
+        "event": "llm",
+        "n": 1,
+        "finish_reason": "tool_calls",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 2.49,
+        "usage": {
+          "prompt_tokens": 581,
+          "completion_tokens": 29,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"query\":\"xử phạt người sử dụng lao động không đóng bảo hiểm thất nghiệp\"}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "xử phạt người sử dụng lao động không đóng bảo hiểm thất nghiệp",
+        "filter": null,
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 90.1,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-LVL2013-6ec999147ee44cda",
+            "score": 0.644054,
+            "source_id": "LVL2013",
+            "page": 63,
+            "page_end": 63,
+            "article": "Điều 43"
+          },
+          {
+            "rank": 2,
+            "id": "B-LVL2025-534986cec945bfb7",
+            "score": 0.64076,
+            "source_id": "LVL2025",
+            "page": 43,
+            "page_end": 43,
+            "article": "Điều 33"
+          },
+          {
+            "rank": 3,
+            "id": "B-BLLD2019-45c2e95d73314cc4",
+            "score": 0.635066,
+            "source_id": "BLLD2019",
+            "page": 68,
+            "page_end": 68,
+            "article": "Điều 168"
+          }
+        ],
+        "added_to_context": [
+          "B-LVL2013-6ec999147ee44cda",
+          "B-LVL2025-534986cec945bfb7",
+          "B-BLLD2019-45c2e95d73314cc4"
+        ],
+        "already_in_context": [],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 2,
+        "finish_reason": "stop",
+        "served_model": "gemini-3.1-flash-lite",
+        "latency_s": 1.97,
+        "usage": {
+          "prompt_tokens": 1592,
+          "completion_tokens": 225,
+          "reasoning_tokens": null,
+          "cost_usd": null
+        },
+        "retries": [],
+        "tool_calls": [],
+        "content": "KHÔNG ĐỦ BẰNG CHỨNG: Các văn bản được cung cấp (Bộ luật Lao động 2019, Luật Việc làm 2013, Luật Việc làm 2025) quy định về trách nhiệm tham gia và đóng bảo hiểm thất nghiệp của người sử dụng lao động [B-LVL2013-6ec999147ee44cda], [B-BLLD2019-45c2e95d73314cc4], [B-LVL2025-534986cec945bfb7], nhưng không quy định cụ thể mức phạt tiền đối với hành vi không đóng bảo hiểm thất nghiệp. Luật Việc làm 2025 chỉ nêu trường hợp không đóng đủ thì người sử dụng lao động phải trả khoản tiền tương ứng với các chế độ bảo hiểm thất nghiệp mà người lao động được hưởng [B-LVL2025-534986cec945bfb7]."
+      },
+      {
+        "event": "answer",
+        "raw_answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các văn bản được cung cấp (Bộ luật Lao động 2019, Luật Việc làm 2013, Luật Việc làm 2025) quy định về trách nhiệm tham gia và đóng bảo hiểm thất nghiệp của người sử dụng lao động [B-LVL2013-6ec999147ee44cda], [B-BLLD2019-45c2e95d73314cc4], [B-LVL2025-534986cec945bfb7], nhưng không quy định cụ thể mức phạt tiền đối với hành vi không đóng bảo hiểm thất nghiệp. Luật Việc làm 2025 chỉ nêu trường hợp không đóng đủ thì người sử dụng lao động phải trả khoản tiền tương ứng với các chế độ bảo hiểm thất nghiệp mà người lao động được hưởng [B-LVL2025-534986cec945bfb7].",
+        "citations_found": [
+          "B-LVL2013-6ec999147ee44cda",
+          "B-BLLD2019-45c2e95d73314cc4",
+          "B-LVL2025-534986cec945bfb7"
+        ],
+        "invalid_citations": []
+      }
+    ],
+    "context_ids": [
+      "B-LVL2013-6ec999147ee44cda",
+      "B-LVL2025-534986cec945bfb7",
+      "B-BLLD2019-45c2e95d73314cc4"
+    ],
+    "context": "[B-LVL2013-6ec999147ee44cda] Luật Việc làm 38/2013/QH13 — trang 63\nĐiều 43. Đối tượng bắt buộc tham gia bảo hiểm thất nghiệp\n1. Người lao động phải tham gia bảo hiểm thất nghiệp khi làm việc theo hợp đồng lao động hoặc hợp đồng làm việc như sau:\na) Hợp đồng lao động hoặc hợp đồng làm việc không xác định thời hạn;\nb) Hợp đồng lao động hoặc hợp đồng làm việc xác định thời hạn;\nc) Hợp đồng lao động theo mùa vụ hoặc theo một công việc nhất định có thời hạn từ đủ 03 tháng đến dưới 12 tháng.\nTrong trường hợp người lao động giao kết và đang thực hiện nhiều hợp đồng lao động quy định tại khoản này thì người lao động và người sử dụng lao động của hợp đồng lao động giao kết đầu tiên có trách nhiệm tham gia bảo hiểm thất nghiệp.\n2. Người lao động theo quy định tại khoản 1 Điều này đang hưởng lương hưu, giúp việc gia đình thì không phải tham gia bảo hiểm thất nghiệp.\n3. Người sử dụng lao động tham gia bảo hiểm thất nghiệp bao gồm cơ quan nhà nước, đơn vị sự nghiệp công lập, đơn vị vũ trang nhân dân; tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp; cơ quan, tổ chức nước ngoài, tổ chức quốc tế hoạt động trên lãnh thổ Việt Nam; doanh nghiệp, hợp tác xã, hộ gia đình, hộ kinh doanh, tổ hợp tác, tổ chức khác và cá nhân có thuê mướn, sử dụng lao động theo hợp đồng làm việc hoặc hợp đồng lao động quy định tại khoản 1 Điều này.\n\n[B-LVL2025-534986cec945bfb7] Luật Việc làm 74/2025/QH15 — trang 43\nĐiều 33. Đóng bảo hiểm thất nghiệp (tiếp)\n7. Người sử dụng lao động có trách nhiệm đóng đủ bảo hiểm thất nghiệp theo quy định đối với người lao động khi chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc chấm dứt làm việc để kịp thời giải quyết chế độ bảo hiểm thất nghiệp cho người lao động.\nTrường hợp người sử dụng lao động không đóng đủ bảo hiểm thất nghiệp cho người lao động thì phải trả khoản tiền tương ứng với các chế độ bảo hiểm thất nghiệp mà người lao động được hưởng theo quy định của pháp luật.\n8. Nhà nước chuyển kinh phí hỗ trợ từ ngân sách nhà nước vào Quỹ bảo hiểm thất nghiệp.\n9. Chính phủ quy định chi tiết các khoản 1, 6, 7 và 8 Điều này.\n\n[B-BLLD2019-45c2e95d73314cc4] Bộ luật Lao động 45/2019/QH14 — trang 68\nChương XII\nBẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP\nĐiều 168. Tham gia bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp\n1. Người sử dụng lao động, người lao động phải tham gia bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp; người lao động được hưởng các chế độ theo quy định của pháp luật về bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp.\nKhuyến khích người sử dụng lao động, người lao động tham gia các hình thức bảo hiểm khác đối với người lao động.\n2. Trong thời gian người lao động nghỉ việc hưởng chế độ bảo hiểm xã hội thì người sử dụng lao động không phải trả lương cho người lao động, trừ trường hợp hai bên có thỏa thuận khác.\n3. Đối với người lao động không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp thì người sử dụng lao động có trách nhiệm chi trả thêm cùng lúc với kỳ trả lương một khoản tiền cho người lao động tương đương với mức người sử dụng lao động đóng bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp cho người lao động theo quy định của pháp luật về bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp.",
+    "context_chars": 3336,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 2173,
+      "completion_tokens": 254,
+      "cost_usd": 0.0
+    },
+    "model": "gemini-3.1-flash-lite",
+    "elapsed_s": 4.55,
+    "params": {
+      "max_searches": 3,
+      "top_k": 3,
+      "budget_chars": 6000,
+      "prompt_version": "base",
+      "retriever": "dense",
+      "user_info": null
+    },
+    "auto_check": {}
+  }
+]

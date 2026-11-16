@@ -1,0 +1,9 @@
+[
+  {"query_id": "q16", "answer_grade": 2, "context_grade": 2, "citation_support": [true], "reason": "Đúng '06 tháng, trước khi sinh không quá 02 tháng' + sinh đôi thêm 01 tháng — Điều 139 khoản 1 nguyên văn. Context: chunk Điều 139 kèm nguồn/trang."},
+  {"query_id": "q17", "answer_grade": 2, "context_grade": 2, "citation_support": [true], "reason": "Đúng 'đủ 55 tuổi 04 tháng', mỗi năm +04 tháng đến 60 tuổi năm 2035 — Điều 169 khoản 2. Context có Điều 169."},
+  {"query_id": "q18", "answer_grade": 2, "context_grade": 2, "citation_support": [true], "reason": "Đúng 'Tết Âm lịch 05 ngày'; 'Thủ tướng quyết định cụ thể ngày nghỉ' có ở khoản 3 Điều 112."},
+  {"query_id": "q19", "answer_grade": 2, "context_grade": 2, "citation_support": [true], "reason": "Đúng '08 giờ/ngày, 48 giờ/tuần'; trường hợp theo tuần 10 giờ/ngày; khuyến khích 40 giờ — đều có trong Điều 105."},
+  {"query_id": "q20", "answer_grade": 2, "context_grade": 2, "citation_support": [true, true], "reason": "Đúng 'trong thời hạn 10 ngày làm việc kể từ ngày nộp đủ hồ sơ' (LVL 2025 Điều 38 khoản 1 điểm d) + thời điểm hưởng ngày làm việc thứ 11 (Điều 39). Ghi chú nhỏ: liệt kê 'có việc làm, tham gia BHXH bắt buộc' như hai trường hợp riêng, trong khi luật ghi 'có việc làm VÀ thuộc đối tượng tham gia BHXH bắt buộc' — diễn đạt hơi lệch nhưng không sai ý chính câu hỏi (10 ngày làm việc)."},
+  {"query_id": "u03", "abstention_correct": true, "citation_support": [true], "reason": "Từ chối đúng; nêu Điều 139 khoản 5 chỉ dẫn chiếu pháp luật BHXH, không có số ngày; không đưa con số."},
+  {"query_id": "u04", "abstention_correct": true, "citation_support": [true], "reason": "Từ chối đúng (không có mức phạt tiền); bổ sung LVL 2025 Điều 33 khoản 7 (không đóng đủ thì phải trả khoản tiền tương ứng chế độ BHTN) — có nguyên văn trong chunk trích."}
+]

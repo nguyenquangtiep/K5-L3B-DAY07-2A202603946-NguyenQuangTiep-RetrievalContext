@@ -1,0 +1,19 @@
+[
+  {"query_id": "q01", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không quá 60 ngày'; Điều 25 khoản 2."},
+  {"query_id": "q02", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'thỏa thuận, ít nhất 85%'; Điều 26."},
+  {"query_id": "q03", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không quá 36 tháng'; Điều 20 khoản 1 điểm b."},
+  {"query_id": "q04", "answer_grade": 2, "citation_support": [true], "reason": "Đúng; còn nêu chính xác vị trí 'điểm b khoản 2 Điều 20' — khớp chunk."},
+  {"query_id": "q05", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ít nhất 45 ngày' + ngoại lệ đặc thù và trường hợp không cần báo trước (khoản 2 Điều 35) — chỉ nêu số hiệu, không diễn giải ngoài chunk."},
+  {"query_id": "q06", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không cần báo trước'; Điều 35 khoản 2 điểm d."},
+  {"query_id": "q07", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'một nửa tháng tiền lương' + điều kiện, cách tính (Điều 46). ĐÃ SỬA LỖI so với baseline: chỉ nêu 'trường hợp quy định tại điểm e khoản 1 Điều 36' đúng nguyên văn chunk, KHÔNG tự diễn giải nội dung Điều 36 — đúng như giả thuyết của quy tắc 7."},
+  {"query_id": "q08", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ít nhất 200%'; Điều 98."},
+  {"query_id": "q09", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không quá 300 giờ/năm'; thông báo UBND cấp tỉnh có trong Điều 107 khoản 4."},
+  {"query_id": "q10", "answer_grade": 2, "citation_support": [true, true], "reason": "Đúng '12 ngày làm việc, hưởng nguyên lương' (Điều 113). Bổ sung 'cứ đủ 05 năm tăng thêm 01 ngày' — đã kiểm tra chunk Điều 114 nêu nguyên văn, nên citation thứ hai cũng hỗ trợ."},
+  {"query_id": "q11", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'nghỉ 03 ngày'; Điều 115 khoản 1 điểm a."},
+  {"query_id": "q12", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ngày thứ 16' theo LVL 2013; Điều 50 khoản 3."},
+  {"query_id": "q13", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ngày làm việc thứ 11' theo LVL 2025; Điều 39 khoản 3."},
+  {"query_id": "q14", "answer_grade": 2, "citation_support": [true], "reason": "Đúng '1% tiền lương tháng'; Điều 57 khoản 1 điểm a."},
+  {"query_id": "q15", "answer_grade": 2, "citation_support": [true, true], "reason": "Đúng 'tối đa 12 tháng'; cả hai luật."},
+  {"query_id": "u01", "abstention_correct": true, "citation_support": [true], "reason": "Từ chối đúng; nêu Điều 91 chỉ quy định nguyên tắc, không có con số."},
+  {"query_id": "u02", "abstention_correct": true, "citation_support": [true, true, true], "reason": "Từ chối đúng; không nhầm tỷ lệ 1% BHTN với quỹ hưu trí/tử tuất."}
+]

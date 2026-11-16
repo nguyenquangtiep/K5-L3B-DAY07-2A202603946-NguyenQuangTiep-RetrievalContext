@@ -1,0 +1,335 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "Thời gian thử việc tối đa đối với công việc cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên là bao lâu?",
+    "config": "smoke_dense",
+    "run_at": "2026-11-16T10:37:26",
+    "status": "answered",
+    "answer": "Thời gian thử việc tối đa đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên là không quá 60 ngày [B-BLLD2019-5057094bf022c67e].",
+    "citations": [
+      "B-BLLD2019-5057094bf022c67e"
+    ],
+    "reason": "answered",
+    "error": null,
+    "events": [
+      {
+        "event": "llm",
+        "n": 1,
+        "finish_reason": "tool_calls",
+        "served_model": "nvidia/nemotron-3.5-super-vl:free",
+        "latency_s": 3.06,
+        "usage": {
+          "prompt_tokens": 855,
+          "completion_tokens": 247,
+          "reasoning_tokens": 199,
+          "cost_usd": 0
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"query\":\"thời gian thử việc tối đa công việc cần trình độ chuyên môn kỹ thuật từ cao đẳng trở lên\"}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "thời gian thử việc tối đa công việc cần trình độ chuyên môn kỹ thuật từ cao đẳng trở lên",
+        "filter": null,
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 32.4,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-BLLD2019-5057094bf022c67e",
+            "score": 0.72249,
+            "source_id": "BLLD2019",
+            "page": 12,
+            "page_end": 13,
+            "article": "Điều 25"
+          },
+          {
+            "rank": 2,
+            "id": "B-LVL2025-b5b5320f5b5b4b09",
+            "score": 0.628754,
+            "source_id": "LVL2025",
+            "page": 44,
+            "page_end": 45,
+            "article": "Điều 37"
+          },
+          {
+            "rank": 3,
+            "id": "B-LVL2013-f0b9ba85e115de3e",
+            "score": 0.604998,
+            "source_id": "LVL2013",
+            "page": 64,
+            "page_end": 65,
+            "article": "Điều 47"
+          }
+        ],
+        "added_to_context": [
+          "B-BLLD2019-5057094bf022c67e",
+          "B-LVL2025-b5b5320f5b5b4b09",
+          "B-LVL2013-f0b9ba85e115de3e"
+        ],
+        "already_in_context": [],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 2,
+        "finish_reason": "stop",
+        "served_model": "nvidia/nemotron-3.5-super-vl:free",
+        "latency_s": 2.44,
+        "usage": {
+          "prompt_tokens": 2192,
+          "completion_tokens": 211,
+          "reasoning_tokens": 145,
+          "cost_usd": 0
+        },
+        "retries": [],
+        "tool_calls": [],
+        "content": "Thời gian thử việc tối đa đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên là không quá 60 ngày [B-BLLD2019-5057094bf022c67e]."
+      },
+      {
+        "event": "answer",
+        "raw_answer": "Thời gian thử việc tối đa đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên là không quá 60 ngày [B-BLLD2019-5057094bf022c67e].",
+        "citations_found": [
+          "B-BLLD2019-5057094bf022c67e"
+        ],
+        "invalid_citations": []
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-5057094bf022c67e",
+      "B-LVL2025-b5b5320f5b5b4b09",
+      "B-LVL2013-f0b9ba85e115de3e"
+    ],
+    "context": "[B-BLLD2019-5057094bf022c67e] Bộ luật Lao động 45/2019/QH14 — trang 12-13\nĐiều 25. Thời gian thử việc\nThời gian thử việc do hai bên thỏa thuận căn cứ vào tính chất và mức độ phức tạp của công việc nhưng chỉ được thử việc một lần đối với một công việc và bảo đảm điều kiện sau đây:\n1. Không quá 180 ngày đối với công việc của người quản lý doanh nghiệp theo quy định của Luật Doanh nghiệp, Luật Quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp;\n2. Không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên;\n3. Không quá 30 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật trung cấp, công nhân kỹ thuật, nhân viên nghiệp vụ;\n4. Không quá 06 ngày làm việc đối với công việc khác.\n\n[B-LVL2025-b5b5320f5b5b4b09] Luật Việc làm 74/2025/QH15 — trang 44-45\nĐiều 37. Hỗ trợ người lao động tham gia đào tạo, nâng cao trình độ kỹ năng nghề\n1. Người lao động đang hưởng trợ cấp thất nghiệp được hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề.\n2. Trường hợp người lao động không thuộc đối tượng quy định tại khoản 1 Điều này thì phải đáp ứng đủ các điều kiện sau đây:\na) Thuộc đối tượng quy định tại điểm a khoản 1 Điều 38 của Luật này;\nb) Đã nộp hồ sơ đề nghị hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề trong thời hạn 12 tháng kể từ ngày chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc chấm dứt làm việc;\nc) Trong thời hạn 10 ngày làm việc kể từ ngày nộp đủ hồ sơ đề nghị hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề mà người lao động không thuộc một trong các trường hợp có việc làm và thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định tại Luật Bảo hiểm xã hội hoặc thực hiện nghĩa vụ quân sự, nghĩa vụ tham gia Công an nhân dân, dân quân thường trực hoặc đi học tập có thời hạn trên 12 tháng hoặc chấp hành quyết định áp dụng biện pháp đưa vào cơ sở giáo dục bắt buộc, cơ sở cai nghiện bắt buộc hoặc bị tạm giam , chấp hành hình phạt tù hoặc ra nước ngoài định cư hoặc chết;\nd) Đã đóng bảo hiểm thất nghiệp từ đủ 09 tháng trở lên trong thời gian 36 tháng trước khi chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc chấm dứt làm việc.\n3. Thời gian hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề thực hiện theo khóa học, thời gian học nhưng tổng thời gian hỗ trợ không quá 06 tháng.\n4. Nội dung hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề bao gồm:\na) Học phí;\nb) Tiền ăn cho người lao động trong thời gian tham gia đào tạo, nâng cao trình độ kỹ năng nghề.\n5. Chính phủ quy định chi tiết Điều này; quy định hồ sơ, trình tự, thủ tục hỗ trợ người lao động tham gia đào tạo, nâng cao trình độ kỹ năng nghề.\n\n[B-LVL2013-f0b9ba85e115de3e] Luật Việc làm 38/2013/QH13 — trang 64-65\nMục 2\nHỖ TRỢ ĐÀO TẠO, BỒI DƯỠNG, NÂNG CAO TRÌNH ĐỘ KỸ NĂNG NGHỀ ĐỂ DUY TRÌ VIỆC LÀM CHO NGƯỜI LAO ĐỘNG\nĐiều 47. Điều kiện, thời gian và mức hỗ trợ\n1. Người sử dụng lao động được hỗ trợ kinh phí đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề để duy trì việc làm cho người lao động quy định tại khoản 1 Điều 43 của Luật này đang đóng bảo hiểm thất nghiệp khi có đủ các điều kiện sau đây:\na) Đóng đủ bảo hiểm thất nghiệp cho người lao động thuộc đối tượng tham gia bảo hiểm thất nghiệp liên tục từ đủ 12 tháng trở lên tính đến thời điểm đề nghị hỗ trợ;\nb) Gặp khó khăn do suy giảm kinh tế hoặc vì lý do bất khả kháng khác buộc phải thay đổi cơ cấu hoặc công nghệ sản xuất, kinh doanh;\nc) Không đủ kinh phí để tổ chức đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề cho người lao động;\nd) Có phương án đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề và duy trì việc làm được cơ quan nhà nước có thẩm quyền phê duyệt.\n2. Thời gian hỗ trợ đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề để duy trì việc làm cho người lao động theo phương án được phê duyệt và không quá 06 tháng.\n3. Chính phủ quy định chi tiết Điều này và mức hỗ trợ kinh phí đào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề để duy trì việc làm cho người lao động, bảo đảm cân đối quỹ bảo hiểm thất nghiệp.",
+    "context_chars": 3989,
+    "n_searches": 1,
+    "n_llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 3047,
+      "completion_tokens": 458,
+      "cost_usd": 0.0
+    },
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "elapsed_s": 5.53,
+    "params": {
+      "max_searches": 3,
+      "top_k": 3,
+      "budget_chars": 6000,
+      "retriever": "dense",
+      "user_info": null
+    },
+    "auto_check": {
+      "context_has_gold": true,
+      "cited_gold": true
+    }
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "Mức lương tối thiểu vùng I hiện nay là bao nhiêu đồng một tháng?",
+    "config": "smoke_dense",
+    "run_at": "2026-11-16T10:37:37",
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các văn bản trong kho (Bộ luật Lao động 2019, Luật Việc làm 2013, Luật Việc làm 2025) chỉ quy định chung rằng mức lương tối thiểu được xác lập theo vùng, ấn định theo tháng và giờ, và Chính phủ quy định chi tiết cũng như quyết định, công bố mức lương tối thiểu [B-BLLD2019-11cb096cb78775bb]. Kho tài liệu không chứa con số cụ thể của mức lương tối thiểu vùng I hiện nay.",
+    "citations": [
+      "B-BLLD2019-11cb096cb78775bb"
+    ],
+    "reason": "model_abstained",
+    "error": null,
+    "events": [
+      {
+        "event": "llm",
+        "n": 1,
+        "finish_reason": "tool_calls",
+        "served_model": "nvidia/nemotron-3.5-super-vl:free",
+        "latency_s": 1.78,
+        "usage": {
+          "prompt_tokens": 846,
+          "completion_tokens": 196,
+          "reasoning_tokens": 158,
+          "cost_usd": 0
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"query\":\"mức lương tối thiểu vùng I đồng một tháng\"}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "mức lương tối thiểu vùng I đồng một tháng",
+        "filter": null,
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 90.2,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-BLLD2019-11cb096cb78775bb",
+            "score": 0.533933,
+            "source_id": "BLLD2019",
+            "page": 40,
+            "page_end": 41,
+            "article": "Điều 91"
+          },
+          {
+            "rank": 2,
+            "id": "B-LVL2013-11c54b9352bb4854",
+            "score": 0.491717,
+            "source_id": "LVL2013",
+            "page": 66,
+            "page_end": 66,
+            "article": "Điều 50"
+          },
+          {
+            "rank": 3,
+            "id": "B-BLLD2019-b33dec82004cb52c",
+            "score": 0.486023,
+            "source_id": "BLLD2019",
+            "page": 41,
+            "page_end": 41,
+            "article": "Điều 92"
+          }
+        ],
+        "added_to_context": [
+          "B-BLLD2019-11cb096cb78775bb",
+          "B-LVL2013-11c54b9352bb4854",
+          "B-BLLD2019-b33dec82004cb52c"
+        ],
+        "already_in_context": [],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 2,
+        "finish_reason": "tool_calls",
+        "served_model": "nvidia/nemotron-3.5-super-vl:free",
+        "latency_s": 1.48,
+        "usage": {
+          "prompt_tokens": 1714,
+          "completion_tokens": 115,
+          "reasoning_tokens": 69,
+          "cost_usd": 0
+        },
+        "retries": [],
+        "tool_calls": [
+          {
+            "name": "search_law",
+            "arguments": "{\"query\":\"mức lương tối thiểu vùng I 4.420.000 đồng\"}"
+          }
+        ],
+        "content": null
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "query": "mức lương tối thiểu vùng I 4.420.000 đồng",
+        "filter": null,
+        "top_k": 3,
+        "method": "dense",
+        "elapsed_ms": 90.9,
+        "results": [
+          {
+            "rank": 1,
+            "id": "B-BLLD2019-11cb096cb78775bb",
+            "score": 0.498156,
+            "source_id": "BLLD2019",
+            "page": 40,
+            "page_end": 41,
+            "article": "Điều 91"
+          },
+          {
+            "rank": 2,
+            "id": "B-LVL2013-11c54b9352bb4854",
+            "score": 0.462959,
+            "source_id": "LVL2013",
+            "page": 66,
+            "page_end": 66,
+            "article": "Điều 50"
+          },
+          {
+            "rank": 3,
+            "id": "B-LVL2025-9482a0f395ca517c",
+            "score": 0.456999,
+            "source_id": "LVL2025",
+            "page": 27,
+            "page_end": 27,
+            "article": "Điều 1"
+          }
+        ],
+        "added_to_context": [
+          "B-LVL2025-9482a0f395ca517c"
+        ],
+        "already_in_context": [
+          "B-BLLD2019-11cb096cb78775bb",
+          "B-LVL2013-11c54b9352bb4854"
+        ],
+        "skipped_budget": []
+      },
+      {
+        "event": "llm",
+        "n": 3,
+        "finish_reason": "stop",
+        "served_model": "nvidia/nemotron-3.5-super-vl:free",
+        "latency_s": 5.07,
+        "usage": {
+          "prompt_tokens": 1969,
+          "completion_tokens": 554,
+          "reasoning_tokens": 406,
+          "cost_usd": 0
+        },
+        "retries": [],
+        "tool_calls": [],
+        "content": "KHÔNG ĐỦ BẰNG CHỨNG: Các văn bản trong kho (Bộ luật Lao động 2019, Luật Việc làm 2013, Luật Việc làm 2025) chỉ quy định chung rằng mức lương tối thiểu được xác lập theo vùng, ấn định theo tháng và giờ, và Chính phủ quy định chi tiết cũng như quyết định, công bố mức lương tối thiểu [B-BLLD2019-11cb096cb78775bb]. Kho tài liệu không chứa con số cụ thể của mức lương tối thiểu vùng I hiện nay."
+      },
+      {
+        "event": "answer",
+        "raw_answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các văn bản trong kho (Bộ luật Lao động 2019, Luật Việc làm 2013, Luật Việc làm 2025) chỉ quy định chung rằng mức lương tối thiểu được xác lập theo vùng, ấn định theo tháng và giờ, và Chính phủ quy định chi tiết cũng như quyết định, công bố mức lương tối thiểu [B-BLLD2019-11cb096cb78775bb]. Kho tài liệu không chứa con số cụ thể của mức lương tối thiểu vùng I hiện nay.",
+        "citations_found": [
+          "B-BLLD2019-11cb096cb78775bb"
+        ],
+        "invalid_citations": []
+      }
+    ],
+    "context_ids": [
+      "B-BLLD2019-11cb096cb78775bb",
+      "B-LVL2013-11c54b9352bb4854",
+      "B-BLLD2019-b33dec82004cb52c",
+      "B-LVL2025-9482a0f395ca517c"
+    ],
+    "context": "[B-BLLD2019-11cb096cb78775bb] Bộ luật Lao động 45/2019/QH14 — trang 40-41\nĐiều 91. Mức lương tối thiểu\n1. Mức lương tối thiểu làm ức lương thấp nhất được trả cho người lao động làm công việc giản đơn nhất trong điều kiện lao động bình thường nhằm bảo đảm mức sống tối thiểu của người lao động và gia đình họ, phù hợp với điều kiện phát triển kinh tế - xã hội.\n2. Mức lương tối thiểu được xác lập theo vùng, ấn định theo tháng, giờ.\n3. Mức lương tối thiểu được điều chỉnh d ựa trên mức sống tối thiểu của người lao động và gia đình họ; tương quan giữa mức lương tối thiểu và mức lương trên thị trường; chỉ số giá tiêu dùng, t ốc độ tăng trưởng kinh tế; quan hệ cung, cầu lao động; việc làm và thất nghiệp; năng suất lao động; khả năng chi trả của doanh nghiệp.\n4. Chính phủ quy định chi tiết Điều này; quyết định và công bố mức lương tối thiểu trên cơ sở khuyến nghị của Hội đồng tiền lương quốc gia.\n\n[B-LVL2013-11c54b9352bb4854] Luật Việc làm 38/2013/QH13 — trang 66\nĐiều 50. Mức, thời gian, thời điểm hưởng trợ cấp thất nghiệp\n1. Mức hưởng trợ cấp thất nghiệp hằng tháng bằng 60% mức bình quân tiền lương tháng đóng bảo hiểm thất nghiệp của 06 tháng li ền kề trước khi thất nghiệp nhưng tối đa không quá 05 lần mức lương cơ sở đối với người lao động thuộc đối tượng thực hiện chế độ tiền lương do Nhà nước quy định hoặc không quá 05 lần mức lương tối thiểu vùng theo quy định của Bộ luật lao động đối với người lao động đóng bảo hiểm thất nghiệp theo chế độ tiền lương do người sử dụng lao động quyết định tại thời điểm chấm dứt hợp đồng lao động hoặc hợp đồng làm việc.\n2. Thời gian hưởng trợ cấp thất nghiệp được tính theo số tháng đóng bảo hiểm thất nghiệp, cứ đóng đủ 12 tháng đến đủ 36 tháng thì được hưởng 03 tháng trợ cấp thất nghiệp, sau đó, cứ đóng đủ thêm 12 tháng thì được hưởng thêm 01 tháng trợ cấp thất nghiệp nhưng tối đa không quá 12 tháng.\n3. Thời điểm hưởng trợ cấp thất nghiệp được tính từ ngày thứ 16, kể từ ngày nộp đủ hồ sơ hưởng trợ cấp thất nghiệp theo quy định tại khoản 1 Điều 46 của Luật này.\n\n[B-BLLD2019-b33dec82004cb52c] Bộ luật Lao động 45/2019/QH14 — trang 41\nĐiều 92. Hội đồng tiền lương quốc gia\n1. Hội đồng tiền lương quốc gia là cơ quan tư vấn cho Chính phủ về mức lương tối thiểu và chính sách tiền lương đối với người lao động.\n2. Thủ tướng Chính phủ thành lập Hội đồng tiền lương quốc gia bao gồm các thành viên là đại diện của Bộ Lao động - Thương binh và Xã hội, Tổng Liên đoàn Lao động Việt Nam, một số tổ chức đại diện người sử dụng lao động ở trung ương và chuyên gia độc lập.\n3. Chính phủ quy định chức năng, nhiệm vụ, cơ cấu tổ chức và hoạt động của Hội đồng tiền lương quốc gia.\n\n[B-LVL2025-9482a0f395ca517c] Luật Việc làm 74/2025/QH15 — trang 27\nChương I\nNHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh\nLuật này quy định chính sách hỗ trợ tạo việc làm, đăng ký lao động, hệ thống thông tin thị trường lao động, phát triển kỹ năng nghề, dịch vụ việc làm, bảo hiểm thất nghiệp và quản lý nhà nước về việc làm.",
+    "context_chars": 2957,
+    "n_searches": 2,
+    "n_llm_calls": 3,
+    "usage": {
+      "prompt_tokens": 4529,
+      "completion_tokens": 865,
+      "cost_usd": 0.0
+    },
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "elapsed_s": 8.51,
+    "params": {
+      "max_searches": 3,
+      "top_k": 3,
+      "budget_chars": 6000,
+      "retriever": "dense",
+      "user_info": null
+    },
+    "auto_check": {}
+  }
+]

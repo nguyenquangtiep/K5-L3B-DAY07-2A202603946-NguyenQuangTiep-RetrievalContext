@@ -1,0 +1,9 @@
+[
+  {"query_id": "q16", "answer_grade": 2, "context_grade": 2, "citation_support": [true], "reason": "Đúng '06 tháng, trước khi sinh không quá 02 tháng' + sinh đôi — Điều 139 khoản 1."},
+  {"query_id": "q17", "answer_grade": 2, "context_grade": 2, "citation_support": [true], "reason": "Đúng 'đủ 55 tuổi 04 tháng, mỗi năm +04 tháng' — Điều 169 khoản 2."},
+  {"query_id": "q18", "answer_grade": 2, "context_grade": 2, "citation_support": [true], "reason": "Đúng 'Tết Âm lịch 05 ngày' — Điều 112 khoản 1 điểm b."},
+  {"query_id": "q19", "answer_grade": 2, "context_grade": 2, "citation_support": [true, true], "reason": "Đúng '08 giờ/ngày, 48 giờ/tuần' và trường hợp theo tuần 10 giờ/ngày (Điều 105). Lưu ý thêm về người chưa thành niên trích Điều 146 — chunk Điều 146 đúng là quy định thời giờ làm việc người chưa thành niên, nên citation thứ hai hỗ trợ."},
+  {"query_id": "q20", "answer_grade": 2, "context_grade": 2, "citation_support": [true, true], "reason": "Đúng 'trong thời hạn 10 ngày làm việc ... không thuộc các trường hợp có việc làm và thuộc đối tượng tham gia BHXH bắt buộc hoặc các trường hợp loại trừ khác' — diễn đạt sát Điều 38 khoản 1 điểm d hơn A1; + thời điểm hưởng ngày thứ 11 (Điều 39)."},
+  {"query_id": "u03", "abstention_correct": true, "citation_support": [true], "reason": "Từ chối đúng; nêu Điều 139 khoản 5 chỉ dẫn chiếu, không có số ngày."},
+  {"query_id": "u04", "abstention_correct": true, "citation_support": [true, true, true], "reason": "Từ chối đúng; ba citation (LVL 2013 Điều 43 đối tượng tham gia BHTN, BLLĐ Điều 168 tham gia BHXH/BHTN, LVL 2025 Điều 33 khoản 7) hỗ trợ đúng các ý nêu; không đưa mức phạt."}
+]

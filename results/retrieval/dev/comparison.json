@@ -13,17 +13,17 @@
     "context_hit": 15,
     "mrr10": 0.9667,
     "avg_context_chars": 2279.1,
-    "median_ms": 33.0,
+    "median_ms": 37.8,
     "cost_usd": 0.0,
     "misses_hit3": [],
     "misses_hit1": [
       "q14"
     ],
     "config": "dense",
-    "run_at": "2026-11-16T10:01:40"
+    "run_at": "2026-11-16T10:53:10"
   },
   {
-    "method": "bm25_syllable",
+    "method": "rerank(dense)",
     "split": "dev",
     "top_k": 3,
     "budget_chars": 3000,
@@ -31,28 +31,23 @@
     "n_answerable": 15,
     "n_unanswerable_run": 2,
     "errors": 0,
-    "hit1": 10,
-    "hit3": 14,
-    "context_hit": 14,
-    "mrr10": 0.8,
-    "avg_context_chars": 2334.5,
-    "median_ms": 3.2,
+    "hit1": 13,
+    "hit3": 15,
+    "context_hit": 15,
+    "mrr10": 0.9333,
+    "avg_context_chars": 2440.5,
+    "median_ms": 488.0,
     "cost_usd": 0.0,
-    "misses_hit3": [
-      "q03"
-    ],
+    "misses_hit3": [],
     "misses_hit1": [
       "q03",
-      "q05",
-      "q12",
-      "q13",
-      "q14"
+      "q13"
     ],
-    "config": "bm25_syllable",
-    "run_at": "2026-11-16T10:01:40"
+    "config": "rerank_dense",
+    "run_at": "2026-11-16T10:53:19"
   },
   {
-    "method": "bm25_bigram",
+    "method": "rerank(hybrid_rrf(dense+bm25_bigram))",
     "split": "dev",
     "top_k": 3,
     "budget_chars": 3000,
@@ -60,76 +55,19 @@
     "n_answerable": 15,
     "n_unanswerable_run": 2,
     "errors": 0,
-    "hit1": 12,
-    "hit3": 14,
-    "context_hit": 14,
-    "mrr10": 0.8667,
-    "avg_context_chars": 2461.5,
-    "median_ms": 3.0,
+    "hit1": 13,
+    "hit3": 15,
+    "context_hit": 15,
+    "mrr10": 0.9333,
+    "avg_context_chars": 2440.5,
+    "median_ms": 490.5,
     "cost_usd": 0.0,
-    "misses_hit3": [
-      "q03"
-    ],
+    "misses_hit3": [],
     "misses_hit1": [
       "q03",
-      "q05",
-      "q14"
+      "q13"
     ],
-    "config": "bm25_bigram",
-    "run_at": "2026-11-16T10:01:40"
-  },
-  {
-    "method": "hybrid_rrf(dense+bm25_bigram)",
-    "split": "dev",
-    "top_k": 3,
-    "budget_chars": 3000,
-    "use_filter": true,
-    "n_answerable": 15,
-    "n_unanswerable_run": 2,
-    "errors": 0,
-    "hit1": 12,
-    "hit3": 14,
-    "context_hit": 14,
-    "mrr10": 0.8741,
-    "avg_context_chars": 2344.3,
-    "median_ms": 30.3,
-    "cost_usd": 0.0,
-    "misses_hit3": [
-      "q03"
-    ],
-    "misses_hit1": [
-      "q03",
-      "q05",
-      "q14"
-    ],
-    "config": "hybrid",
-    "run_at": "2026-11-16T10:01:41"
-  },
-  {
-    "method": "hybrid_rrf(dense+bm25_syllable)",
-    "split": "dev",
-    "top_k": 3,
-    "budget_chars": 3000,
-    "use_filter": true,
-    "n_answerable": 15,
-    "n_unanswerable_run": 2,
-    "errors": 0,
-    "hit1": 12,
-    "hit3": 14,
-    "context_hit": 14,
-    "mrr10": 0.875,
-    "avg_context_chars": 2508.5,
-    "median_ms": 32.7,
-    "cost_usd": 0.0,
-    "misses_hit3": [
-      "q03"
-    ],
-    "misses_hit1": [
-      "q03",
-      "q05",
-      "q14"
-    ],
-    "config": "hybrid_syllable",
-    "run_at": "2026-11-16T10:01:41"
+    "config": "rerank_hybrid",
+    "run_at": "2026-11-16T10:53:28"
   }
 ]

@@ -1,0 +1,19 @@
+[
+  {"query_id": "q01", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không quá 60 ngày'; Điều 25 khoản 2."},
+  {"query_id": "q02", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'thỏa thuận, ít nhất 85%'; Điều 26."},
+  {"query_id": "q03", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không quá 36 tháng'; Điều 20 khoản 1 điểm b."},
+  {"query_id": "q04", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'trở thành HĐLĐ không xác định thời hạn'; Điều 20 khoản 2 điểm b."},
+  {"query_id": "q05", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ít nhất 45 ngày' + ngoại lệ ngành nghề đặc thù; nhắc khoản 2 Điều 35 (không cần báo trước) mà không diễn giải thêm — có trong chunk."},
+  {"query_id": "q06", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không phải báo trước'; Điều 35 khoản 2 điểm d."},
+  {"query_id": "q07", "answer_grade": 1, "citation_support": [true], "reason": "Mức 'một nửa tháng tiền lương' đúng (Điều 46). LẶP LẠI LỖI GROUNDING như baseline: diễn giải 'điểm e khoản 1 Điều 36' thành 'tự ý bỏ việc ... 05 ngày làm việc liên tục' — context chỉ có Điều 46, 47 (đã kiểm tra: không chunk nào trong context chứa '05 ngày'). Chấm 1 theo cùng tiêu chí với baseline."},
+  {"query_id": "q08", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ít nhất 200%'; Điều 98."},
+  {"query_id": "q09", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'không quá 300 giờ/năm' (dệt may); nghĩa vụ thông báo UBND cấp tỉnh có trong Điều 107 khoản 4."},
+  {"query_id": "q10", "answer_grade": 2, "citation_support": [true], "reason": "Đúng '12 ngày làm việc, hưởng nguyên lương'; Điều 113 khoản 1 điểm a."},
+  {"query_id": "q11", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'nghỉ 03 ngày'; Điều 115 khoản 1 điểm a."},
+  {"query_id": "q12", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ngày thứ 16' theo LVL 2013; Điều 50 khoản 3."},
+  {"query_id": "q13", "answer_grade": 2, "citation_support": [true], "reason": "Đúng 'ngày làm việc thứ 11' theo LVL 2025; Điều 39 khoản 3."},
+  {"query_id": "q14", "answer_grade": 2, "citation_support": [true], "reason": "Đúng '1% tiền lương tháng'; Điều 57 khoản 1 điểm a."},
+  {"query_id": "q15", "answer_grade": 2, "citation_support": [true, true], "reason": "Đúng 'tối đa 12 tháng'; cả LVL 2013 Điều 50 và LVL 2025 Điều 39."},
+  {"query_id": "u01", "abstention_correct": true, "citation_support": [true], "reason": "Từ chối đúng, không đưa con số. Ghi chú: câu 'Luật Việc làm 2013 và 2025 cũng không chứa thông tin về mức lương tối thiểu vùng' hơi quá — hai luật này có NHẮC 'mức lương tối thiểu vùng' (làm mức trần trợ cấp) nhưng không có con số; không ảnh hưởng kết luận từ chối."},
+  {"query_id": "u02", "abstention_correct": true, "citation_support": [true, true], "reason": "Từ chối đúng; nói rõ corpus chỉ có mức đóng bảo hiểm thất nghiệp, không phải quỹ hưu trí/tử tuất."}
+]
